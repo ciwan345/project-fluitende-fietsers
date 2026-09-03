@@ -1,0 +1,980 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #1f1f1f;
+}
+
+/* HEADER */
+
+.top-header {
+    display: flex;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.top-header input {
+    margin-left: 30px;
+    width: 250px;
+    padding: 10px;
+    border: none;
+    background-color: white;
+}
+
+.cart {
+    margin-left: auto;
+    font-size: 22px;
+}
+
+/* NAVIGATION */
+
+nav {
+    display: flex;
+    padding-left: 50px;
+    background-color: #3f3f3f;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+}
+
+nav a:hover {
+    background-color: #f6b26b;
+    color: #1f1f1f;
+}
+
+nav .active {
+    color: #f6b26b;
+    border-bottom: 3px solid #f6b26b;
+}
+
+/* HERO */
+
+.hero {
+    margin: 35px 50px;
+    padding: 40px 30px;
+    min-height: 260px;
+
+    background-color: #e3e3e3;
+    border-left: 6px solid #f6b26b;
+}
+
+.hero-small {
+    color: #666;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    color: #1f1f1f;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.hero-text {
+    width: 450px;
+    color: #555;
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+/* BUTTONS */
+
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.dark-btn {
+    background-color: #1f1f1f;
+    color: white;
+    border: 2px solid #1f1f1f;
+}
+
+.light-btn {
+    background-color: #f6b26b;
+    color: #1f1f1f;
+    border: 2px solid #f6b26b;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+
+
+
+
+
+/* =========================
+   WINKEL STATUS
+========================= */
+
+.winkel-status {
+    margin: 0 50px 40px;
+    padding: 18px 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #ffffff;
+    border-left: 6px solid #f6b26b;
+}
+
+.status {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.status-dot {
+    width: 12px;
+    height: 12px;
+
+    background-color: #f6b26b;
+    border-radius: 50%;
+}
+
+.status h3 {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.status p {
+    color: #777;
+    font-size: 13px;
+}
+
+.fietser {
+    font-size: 35px;
+}
+
+
+/* =========================
+   POPULAIRE FIETSEN
+========================= */
+
+.populaire-fietsen {
+    padding: 20px 50px 60px;
+}
+
+.populaire-fietsen h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.fietsen-container {
+    display: flex;
+    gap: 25px;
+}
+
+.fiets-card {
+    flex: 1;
+
+    background-color: white;
+    padding: 15px;
+
+    border-bottom: 4px solid #f6b26b;
+}
+
+.fiets-foto {
+    height: 170px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #d9d9d9;
+    color: #777;
+
+    margin-bottom: 15px;
+}
+
+.fiets-card h3 {
+    margin-bottom: 8px;
+}
+
+.prijs {
+    color: #f6b26b;
+    font-size: 20px;
+    font-weight: bold;
+
+    margin-bottom: 10px;
+}
+
+.fiets-card p {
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.fiets-btn {
+    display: inline-block;
+
+    padding: 10px 18px;
+
+    background-color: #1f1f1f;
+    color: white;
+
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.fiets-btn:hover {
+    background-color: #f6b26b;
+    color: #1f1f1f;
+}
+
+
+
+
+
+/* =========================
+   WAAROM
+========================= */
+
+.waarom {
+    padding: 50px;
+    background-color: #ffffff;
+}
+
+.waarom h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.waarom-container {
+    display: flex;
+    gap: 25px;
+}
+
+.waarom-item {
+    flex: 1;
+    padding: 25px;
+    background-color: #f2f2f2;
+    border-top: 4px solid #f6b26b;
+}
+
+.waarom-icoon {
+    width: 45px;
+    height: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #1f1f1f;
+    color: #f6b26b;
+
+    font-size: 22px;
+    border-radius: 50%;
+
+    margin-bottom: 15px;
+}
+
+.waarom-item h3 {
+    margin-bottom: 10px;
+}
+
+.waarom-item p {
+    color: #666;
+    line-height: 1.5;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    background-color: #1f1f1f;
+    color: white;
+
+    padding: 40px 50px 15px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+
+    gap: 40px;
+}
+
+.footer-container div {
+    flex: 1;
+}
+
+.footer-container h3,
+.footer-container h4 {
+    margin-bottom: 15px;
+}
+
+.footer-container h3 {
+    color: #f6b26b;
+}
+
+.footer-container p {
+    color: #bbb;
+}
+
+.footer-container a {
+    display: block;
+
+    color: #ccc;
+    text-decoration: none;
+
+    margin-bottom: 8px;
+}
+
+.footer-container a:hover {
+    color: #f6b26b;
+}
+
+.footer-bottom {
+    margin-top: 30px;
+    padding-top: 15px;
+
+    text-align: center;
+
+    border-top: 1px solid #444;
+}
+
+.footer-bottom p {
+    color: #888;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+/*....................... fietsen pagina.................................*/
+
+
+
+
+
+/* =========================
+   FIETSEN PAGINA
+========================= */
+
+.pagina-titel {
+    padding: 50px;
+    background-color: #e3e3e3;
+    border-left: 6px solid #f6b26b;
+}
+
+.pagina-titel > p:first-child {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.pagina-titel h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.pagina-titel p {
+    color: #666;
+}
+
+
+/* FILTERS */
+
+.filters {
+    display: flex;
+    gap: 10px;
+
+    padding: 30px 50px;
+
+    background-color: white;
+}
+
+.filters button {
+    padding: 10px 18px;
+
+    border: 1px solid #1f1f1f;
+
+    background-color: white;
+    color: #1f1f1f;
+
+    cursor: pointer;
+}
+
+.filters button:first-child {
+    background-color: #f6b26b;
+    border-color: #f6b26b;
+}
+
+.filters button:hover {
+    background-color: #1f1f1f;
+    color: white;
+}
+
+
+/* FIETSEN GRID */
+
+.fietsen-pagina {
+    padding: 10px 50px 60px;
+}
+
+.fietsen-grid {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 25px;
+}
+
+.fietsen-grid .fiets-card {
+    background-color: white;
+
+    padding: 15px;
+
+    border-bottom: 4px solid #f6b26b;
+}
+
+.fietsen-grid .fiets-foto {
+    height: 190px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #d9d9d9;
+    color: #777;
+
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+/*................................ fietsen verhuur................................................*/
+
+
+
+
+/* =========================
+   FIETSVERHUUR
+========================= */
+
+.verhuur {
+    padding: 30px 50px;
+}
+
+.verhuur-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.verhuur-card {
+    display: flex;
+
+    background-color: white;
+    border: 1px solid #bbb;
+    border-bottom: 4px solid #f6b26b;
+}
+
+.verhuur-foto {
+    width: 130px;
+    min-height: 150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #d9d9d9;
+    color: #777;
+}
+
+.verhuur-info {
+    position: relative;
+    flex: 1;
+    padding: 20px;
+}
+
+.verhuur-info h3 {
+    margin-bottom: 8px;
+}
+
+.verhuur-info p {
+    color: #777;
+    margin-bottom: 25px;
+}
+
+.beschikbaar {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+
+    padding: 5px 8px;
+
+    background-color: #eeeeee;
+    color: #4f8a4f;
+
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.niet-beschikbaar {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+
+    padding: 5px 8px;
+
+    background-color: #eeeeee;
+    color: #b65a5a;
+
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.verhuur-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.verhuur-bottom strong {
+    font-size: 18px;
+}
+
+.verhuur-bottom button {
+    padding: 10px 15px;
+
+    border: none;
+
+    background-color: #1f1f1f;
+    color: white;
+
+    cursor: pointer;
+}
+
+.verhuur-bottom button:hover {
+    background-color: #f6b26b;
+    color: #1f1f1f;
+}
+
+.verhuur-bottom button:disabled {
+    background-color: #cccccc;
+    color: #888;
+    cursor: not-allowed;
+}
+
+.verhuurd {
+    opacity: 0.65;
+}
+
+
+/* EXTRA INFORMATIE */
+
+.verhuur-extra {
+    margin: 0 50px 60px;
+    padding: 25px;
+
+    display: flex;
+    gap: 40px;
+
+    background-color: #e3e3e3;
+    border-left: 6px solid #f6b26b;
+}
+
+.verhuur-extra div {
+    flex: 1;
+}
+
+.verhuur-extra h3 {
+    margin-bottom: 8px;
+}
+
+.verhuur-extra p {
+    color: #666;
+    line-height: 1.5;
+}
+
+
+
+
+
+/*...................................................................................*/
+/* =========================
+   OVER ONS
+========================= */
+
+.over-ons {
+    display: flex;
+    gap: 50px;
+
+    padding: 50px;
+    background-color: white;
+}
+
+.over-tekst {
+    flex: 1;
+}
+
+.over-tekst h2 {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.over-tekst > p {
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+
+/* TEAM */
+
+.team {
+    margin-top: 35px;
+    padding-top: 20px;
+
+    border-top: 2px solid #f6b26b;
+}
+
+.team h3 {
+    font-size: 12px;
+    letter-spacing: 2px;
+
+    color: #777;
+
+    margin-bottom: 20px;
+}
+
+.team-container {
+    display: flex;
+    gap: 30px;
+}
+
+.team-lid {
+    text-align: center;
+}
+
+.team-foto {
+    width: 60px;
+    height: 60px;
+
+    margin: 0 auto 10px;
+
+    background-color: #d9d9d9;
+
+    border: 3px solid #f6b26b;
+    border-radius: 50%;
+}
+
+.team-lid p {
+    font-size: 13px;
+}
+
+
+/* FOTO'S RECHTS */
+
+.over-fotos {
+    flex: 1;
+}
+
+.grote-foto {
+    height: 260px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #d9d9d9;
+    color: #777;
+
+    border-bottom: 4px solid #f6b26b;
+
+    margin-bottom: 15px;
+}
+
+.kleine-fotos {
+    display: flex;
+    gap: 15px;
+}
+
+.kleine-foto {
+    flex: 1;
+    height: 130px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #d9d9d9;
+    color: #777;
+
+    border-bottom: 4px solid #f6b26b;
+}
+
+
+
+
+
+
+
+
+/*...................................................................................*/
+/* =========================
+   CONTACT
+========================= */
+
+.contact-section {
+    display: flex;
+    gap: 40px;
+
+    padding: 50px;
+    background-color: white;
+}
+
+
+/* FORMULIER */
+
+.contact-formulier {
+    flex: 1;
+
+    padding: 25px;
+
+    background-color: #e3e3e3;
+    border-left: 6px solid #f6b26b;
+}
+
+.contact-formulier h3 {
+    font-size: 12px;
+    letter-spacing: 2px;
+
+    color: #777;
+
+    margin-bottom: 20px;
+}
+
+.contact-formulier form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-formulier label {
+    font-size: 12px;
+    font-weight: bold;
+
+    margin-bottom: 8px;
+
+    color: #555;
+}
+
+.contact-formulier input,
+.contact-formulier textarea {
+    width: 100%;
+
+    padding: 12px;
+
+    margin-bottom: 20px;
+
+    border: 1px solid #aaa;
+
+    font-size: 14px;
+}
+
+.contact-formulier textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.contact-formulier button {
+    padding: 13px;
+
+    border: none;
+
+    background-color: #1f1f1f;
+    color: white;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.contact-formulier button:hover {
+    background-color: #f6b26b;
+    color: #1f1f1f;
+}
+
+
+/* CONTACT INFO */
+
+.contact-info {
+    flex: 1;
+}
+
+.contact-blok {
+    margin-bottom: 25px;
+}
+
+.contact-blok h4 {
+    font-size: 12px;
+    letter-spacing: 2px;
+
+    color: #f6b26b;
+
+    margin-bottom: 10px;
+}
+
+.contact-blok p {
+    color: #555;
+
+    margin-bottom: 6px;
+}
+
+.contact-foto {
+    height: 170px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #d9d9d9;
+    color: #777;
+
+    border-bottom: 4px solid #f6b26b;
+}
+
+
+
+
+
+
+/*...................................................................................*/
+/* =========================
+   ALGEMENE VOORWAARDEN
+========================= */
+
+.voorwaarden {
+    padding: 50px;
+    background-color: #ffffff;
+}
+
+.voorwaarden-intro {
+    max-width: 750px;
+    margin-bottom: 35px;
+}
+
+.voorwaarden-intro h2 {
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+.voorwaarden-intro p {
+    color: #666;
+    line-height: 1.6;
+}
+
+
+/* VOORWAARDEN ITEMS */
+
+.voorwaarden-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.voorwaarde-card {
+    display: flex;
+    gap: 20px;
+
+    padding: 25px;
+
+    background-color: #f2f2f2;
+
+    border-left: 4px solid #f6b26b;
+}
+
+.voorwaarde-card span {
+    font-size: 24px;
+    font-weight: bold;
+
+    color: #f6b26b;
+}
+
+.voorwaarde-card h3 {
+    margin-bottom: 10px;
+}
+
+.voorwaarde-card p {
+    color: #666;
+    line-height: 1.6;
+}
+
+
+/* VOLLEDIGE VOORWAARDEN */
+
+.voorwaarden-melding {
+    margin-top: 40px;
+
+    padding: 30px;
+
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.voorwaarden-melding h3 {
+    margin-bottom: 10px;
+    color: #f6b26b;
+}
+
+.voorwaarden-melding p {
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+.voorwaarden-btn {
+    display: inline-block;
+
+    padding: 12px 20px;
+
+    background-color: #f6b26b;
+    color: #1f1f1f;
+
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.voorwaarden-btn:hover {
+    background-color: white;
+}
