@@ -1,0 +1,15 @@
+C:\Users\school\OneDrive - Summacollege O365\Software development\programmeren met databases\de_rekenmachine_project\de_rekenmachine_project\bin\Debug\de_rekenmachine_project.exe.config
+C:\Users\school\OneDrive - Summacollege O365\Software development\programmeren met databases\de_rekenmachine_project\de_rekenmachine_project\bin\Debug\de_rekenmachine_project.exe
+C:\Users\school\OneDrive - Summacollege O365\Software development\programmeren met databases\de_rekenmachine_project\de_rekenmachine_project\bin\Debug\de_rekenmachine_project.pdb
+C:\Users\school\OneDrive - Summacollege O365\Software development\programmeren met databases\de_rekenmachine_project\de_rekenmachine_project\obj\Debug\de_rekenmachine_project.csproj.AssemblyReference.cache
+C:\Users\school\OneDrive - Summacollege O365\Software development\programmeren met databases\de_rekenmachine_project\de_rekenmachine_project\obj\Debug\MainWindow.g.cs
+C:\Users\school\OneDrive - Summacollege O365\Software development\programmeren met databases\de_rekenmachine_project\de_rekenmachine_project\obj\Debug\App.g.cs
+C:\Users\school\OneDrive - Summacollege O365\Software development\programmeren met databases\de_rekenmachine_project\de_rekenmachine_project\obj\Debug\de_rekenmachine_project_MarkupCompile.cache
+C:\Users\school\OneDrive - Summacollege O365\Software development\programmeren met databases\de_rekenmachine_project\de_rekenmachine_project\obj\Debug\de_rekenmachine_project_MarkupCompile.lref
+C:\Users\school\OneDrive - Summacollege O365\Software development\programmeren met databases\de_rekenmachine_project\de_rekenmachine_project\obj\Debug\MainWindow.baml
+C:\Users\school\OneDrive - Summacollege O365\Software development\programmeren met databases\de_rekenmachine_project\de_rekenmachine_project\obj\Debug\de_rekenmachine_project.g.resources
+C:\Users\school\OneDrive - Summacollege O365\Software development\programmeren met databases\de_rekenmachine_project\de_rekenmachine_project\obj\Debug\de_rekenmachine_project.Properties.Resources.resources
+C:\Users\school\OneDrive - Summacollege O365\Software development\programmeren met databases\de_rekenmachine_project\de_rekenmachine_project\obj\Debug\de_rekenmachine_project.csproj.GenerateResource.cache
+C:\Users\school\OneDrive - Summacollege O365\Software development\programmeren met databases\de_rekenmachine_project\de_rekenmachine_project\obj\Debug\de_rekenmachine_project.csproj.CoreCompileInputs.cache
+C:\Users\school\OneDrive - Summacollege O365\Software development\programmeren met databases\de_rekenmachine_project\de_rekenmachine_project\obj\Debug\de_rekenmachine_project.exe
+C:\Users\school\OneDrive - Summacollege O365\Software development\programmeren met databases\de_rekenmachine_project\de_rekenmachine_project\obj\Debug\de_rekenmachine_project.pdb
