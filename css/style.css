@@ -181,10 +181,9 @@ nav .active {
 
 .populaire-fietsen {
     padding: 20px 50px 60px;
-<<<<<<< HEAD
+
     background-color: purple;
-=======
->>>>>>> 815fd17c0204f54f1b133854e2be58d770a21e33
+
 }
 
 .populaire-fietsen h2 {
@@ -503,10 +502,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-<<<<<<< HEAD
-    
-=======
->>>>>>> 815fd17c0204f54f1b133854e2be58d770a21e33
+
 }
 
 .verhuur-card {
@@ -985,8 +981,8 @@ footer {
 
 .voorwaarden-btn:hover {
     background-color: white;
-<<<<<<< HEAD
-=======
+
+
 }
 
 
@@ -1053,5 +1049,5 @@ footer {
     height: 100%;
     object-fit: cover;
     display: block;
->>>>>>> 815fd17c0204f54f1b133854e2be58d770a21e33
+
 }
