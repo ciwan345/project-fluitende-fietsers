@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #1f1f1f;
+}
+
+/* HEADER */
+
+.top-header {
+    display: flex;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.top-header input {
+    margin-left: 30px;
+    width: 250px;
+    padding: 10px;
+    border: none;
+    background-color: white;
+}
+
+.cart {
+    margin-left: auto;
+    font-size: 22px;
+}
+
+/* NAVIGATION */
+
+nav {
+    display: flex;
+    padding-left: 50px;
+    background-color: #3f3f3f;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+}
+
+nav a:hover {
+    background-color: #f6b26b;
+    color: #1f1f1f;
+}
+
+nav .active {
+    color: #f6b26b;
+    border-bottom: 3px solid #f6b26b;
+}
+
+/* PAGINA TITEL */
+
+.pagina-titel {
+    padding: 50px;
+    background-color: #e3e3e3;
+    border-left: 6px solid #f6b26b;
+}
+
+.pagina-titel > p:first-child {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.pagina-titel h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.pagina-titel p {
+    color: #666;
+}
+
+/* CONTACT SECTION */
+
+.contact-section {
+    display: flex;
+    gap: 40px;
+    padding: 50px;
+    background-color: white;
+}
+
+/* FORMULIER */
+
+.contact-formulier {
+    flex: 1;
+    padding: 25px;
+    background-color: #e3e3e3;
+    border-left: 6px solid #f6b26b;
+}
+
+.contact-formulier h3 {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.contact-formulier form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-formulier label {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.contact-formulier input,
+.contact-formulier textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #aaa;
+    font-size: 14px;
+}
+
+.contact-formulier textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.contact-formulier button {
+    padding: 13px;
+    border: none;
+    background-color: #1f1f1f;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact-formulier button:hover {
+    background-color: #f6b26b;
+    color: #1f1f1f;
+}
+
+/* CONTACT INFO */
+
+.contact-info {
+    flex: 1;
+}
+
+.contact-blok {
+    margin-bottom: 25px;
+}
+
+.contact-blok h4 {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #f6b26b;
+    margin-bottom: 10px;
+}
+
+.contact-blok p {
+    color: #555;
+    margin-bottom: 6px;
+}
+
+.contact-foto {
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d9d9d9;
+    color: #777;
+    border-bottom: 4px solid #f6b26b;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #1f1f1f;
+    color: white;
+    padding: 40px 50px 15px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.footer-container div {
+    flex: 1;
+}
+
+.footer-container h3,
+.footer-container h4 {
+    margin-bottom: 15px;
+}
+
+.footer-container h3 {
+    color: #f6b26b;
+}
+
+.footer-container p {
+    color: #bbb;
+}
+
+.footer-container a {
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+    margin-bottom: 8px;
+}
+
+.footer-container a:hover {
+    color: #f6b26b;
+}
+
+.footer-bottom {
+    margin-top: 30px;
+    padding-top: 15px;
+    text-align: center;
+    border-top: 1px solid #444;
+}
+
+.footer-bottom p {
+    color: #888;
+    font-size: 13px;
+}

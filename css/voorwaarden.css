@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #1f1f1f;
+}
+
+/* HEADER */
+
+.top-header {
+    display: flex;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.top-header input {
+    margin-left: 30px;
+    width: 250px;
+    padding: 10px;
+    border: none;
+    background-color: white;
+}
+
+.cart {
+    margin-left: auto;
+    font-size: 22px;
+}
+
+/* NAVIGATION */
+
+nav {
+    display: flex;
+    padding-left: 50px;
+    background-color: #3f3f3f;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+}
+
+nav a:hover {
+    background-color: #f6b26b;
+    color: #1f1f1f;
+}
+
+nav .active {
+    color: #f6b26b;
+    border-bottom: 3px solid #f6b26b;
+}
+
+/* PAGINA TITEL */
+
+.pagina-titel {
+    padding: 50px;
+    background-color: #e3e3e3;
+    border-left: 6px solid #f6b26b;
+}
+
+.pagina-titel > p:first-child {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.pagina-titel h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.pagina-titel p {
+    color: #666;
+}
+
+/* VOORWAARDEN */
+
+.voorwaarden {
+    padding: 50px;
+    background-color: #ffffff;
+}
+
+.voorwaarden-intro {
+    max-width: 750px;
+    margin-bottom: 35px;
+}
+
+.voorwaarden-intro h2 {
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+.voorwaarden-intro p {
+    color: #666;
+    line-height: 1.6;
+}
+
+/* VOORWAARDEN ITEMS */
+
+.voorwaarden-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.voorwaarde-card {
+    display: flex;
+    gap: 20px;
+    padding: 25px;
+    background-color: #f2f2f2;
+    border-left: 4px solid #f6b26b;
+}
+
+.voorwaarde-card span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f6b26b;
+}
+
+.voorwaarde-card h3 {
+    margin-bottom: 10px;
+}
+
+.voorwaarde-card p {
+    color: #666;
+    line-height: 1.6;
+}
+
+/* VOLLEDIGE VOORWAARDEN */
+
+.voorwaarden-melding {
+    margin-top: 40px;
+    padding: 30px;
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.voorwaarden-melding h3 {
+    margin-bottom: 10px;
+    color: #f6b26b;
+}
+
+.voorwaarden-melding p {
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+.voorwaarden-btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #f6b26b;
+    color: #1f1f1f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.voorwaarden-btn:hover {
+    background-color: white;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #1f1f1f;
+    color: white;
+    padding: 40px 50px 15px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.footer-container div {
+    flex: 1;
+}
+
+.footer-container h3,
+.footer-container h4 {
+    margin-bottom: 15px;
+}
+
+.footer-container h3 {
+    color: #f6b26b;
+}
+
+.footer-container p {
+    color: #bbb;
+}
+
+.footer-container a {
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+    margin-bottom: 8px;
+}
+
+.footer-container a:hover {
+    color: #f6b26b;
+}
+
+.footer-bottom {
+    margin-top: 30px;
+    padding-top: 15px;
+    text-align: center;
+    border-top: 1px solid #444;
+}
+
+.footer-bottom p {
+    color: #888;
+    font-size: 13px;
+}
