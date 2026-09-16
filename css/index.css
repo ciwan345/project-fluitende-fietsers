@@ -38,6 +38,13 @@ body {
     font-size: 22px;
 }
 
+
+.rowzetten{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
 /* NAVIGATION */
 
 nav {
