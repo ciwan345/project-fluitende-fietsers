@@ -10,7 +10,10 @@ body {
     color: #1f1f1f;
 }
 
-/* HEADER */
+
+/* =========================
+   HEADER
+========================= */
 
 .top-header {
     display: flex;
@@ -20,10 +23,28 @@ body {
     color: white;
 }
 
+
+/* LOGO */
+
 .logo {
-    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.logo span {
+    font-size: 24px;
     font-weight: bold;
 }
+
+
+/* SEARCH */
 
 .top-header input {
     margin-left: 30px;
@@ -33,12 +54,18 @@ body {
     background-color: white;
 }
 
+
+/* WINKELWAGEN */
+
 .cart {
     margin-left: auto;
     font-size: 22px;
 }
 
-/* NAVIGATION */
+
+/* =========================
+   NAVIGATION
+========================= */
 
 nav {
     display: flex;
@@ -62,7 +89,10 @@ nav .active {
     border-bottom: 3px solid #f6b26b;
 }
 
-/* PAGINA TITEL */
+
+/* =========================
+   PAGINA TITEL
+========================= */
 
 .pagina-titel {
     padding: 50px;
@@ -86,13 +116,16 @@ nav .active {
     color: #666;
 }
 
-/* OVER ONS */
+
+/* =========================
+   OVER ONS
+========================= */
 
 .over-ons {
     display: flex;
     gap: 50px;
     padding: 50px;
-    background-color: white;
+    background-color: #f9c58d ;
 }
 
 .over-tekst {
@@ -111,7 +144,10 @@ nav .active {
     margin-bottom: 20px;
 }
 
-/* TEAM */
+
+/* =========================
+   TEAM
+========================= */
 
 .team {
     margin-top: 35px;
@@ -135,35 +171,61 @@ nav .active {
     text-align: center;
 }
 
-.team-foto {
+
+/* TEAM FOTO */
+
+.team-lid img {
     width: 60px;
     height: 60px;
     margin: 0 auto 10px;
-    background-color: #d9d9d9;
+
+    object-fit: cover;
+
     border: 3px solid #f6b26b;
     border-radius: 50%;
+
+    display: block;
 }
 
 .team-lid p {
     font-size: 13px;
 }
 
-/* FOTO'S RECHTS */
+
+/* =========================
+   FOTO'S RECHTS
+========================= */
 
 .over-fotos {
     flex: 1;
 }
 
+
+/* GROTE FOTO */
+
 .grote-foto {
     height: 260px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
     background-color: #d9d9d9;
-    color: #777;
+
     border-bottom: 4px solid #f6b26b;
+
     margin-bottom: 15px;
+
+    overflow: hidden;
 }
+
+.grote-foto img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+}
+
+
+/* KLEINE FOTO'S */
 
 .kleine-fotos {
     display: flex;
@@ -173,15 +235,27 @@ nav .active {
 .kleine-foto {
     flex: 1;
     height: 130px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
     background-color: #d9d9d9;
-    color: #777;
+
     border-bottom: 4px solid #f6b26b;
+
+    overflow: hidden;
 }
 
-/* FOOTER */
+.kleine-foto img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
 
 footer {
     background-color: #1f1f1f;
@@ -233,4 +307,69 @@ footer {
 .footer-bottom p {
     color: #888;
     font-size: 13px;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 800px) {
+
+    .over-ons {
+        flex-direction: column;
+    }
+
+    .team-container {
+        flex-wrap: wrap;
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .top-header {
+        flex-wrap: wrap;
+        gap: 15px;
+        padding: 15px 25px;
+    }
+
+    .top-header input {
+        margin-left: 0;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        padding-left: 20px;
+    }
+}
+
+
+
+
+
+
+/* =========================
+  .....................zoeken functie logo.........................
+========================= */
+
+
+
+.zoekbalk {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.zoekbalk input {
+    width: 250px;
+    padding: 10px;
+    border: none;
+}
+
+.zoekbalk img {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    object-fit: contain;
 }

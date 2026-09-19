@@ -20,8 +20,21 @@ body {
     color: white;
 }
 
+/* LOGO */
 .logo {
-    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.logo span {
+    font-size: 24px;
     font-weight: bold;
 }
 
@@ -100,7 +113,7 @@ nav .active {
 .contact-formulier {
     flex: 1;
     padding: 25px;
-    background-color: #e3e3e3;
+    background-color: #f6b26b;
     border-left: 6px solid #f6b26b;
 }
 
@@ -235,4 +248,35 @@ footer {
 .footer-bottom p {
     color: #888;
     font-size: 13px;
+}
+
+
+
+
+
+
+
+/* =========================
+  .....................zoeken functie logo.........................
+========================= */
+
+
+
+.zoekbalk {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.zoekbalk input {
+    width: 250px;
+    padding: 10px;
+    border: none;
+}
+
+.zoekbalk img {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    object-fit: contain;
 }

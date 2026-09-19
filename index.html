@@ -8,67 +8,107 @@
     <title>Fluitende Fietser</title>
 
     <link rel="stylesheet" href="css/index.css">
+     <link rel="icon" type="image/png" href="image/favicon.png">
 </head>
 
 <body>
 
-    <header>
+<header>
 
-        <div class="top-header">
+    <div class="top-header">
 
-            <div class="logo">
-                🚲 Fluitende Fietser
-            </div>
-
-            <input type="text" placeholder="Zoek een fiets...">
-
-            <div class="cart">
-                🛒
-            </div>
-
+        <div class="logo">
+            <img src="image/logo.png" alt="Fluitende Fietser">
+            <span>Fluitende Fietser</span>
         </div>
 
-        <nav>
-            <a href="index.html" class="active">Home</a>
-            <a href="fietsen.html">Fietsen</a>
-            <a href="fietsverhuur.html">Fietsverhuur</a>
-            <a href="over-ons.html">Over ons</a>
-            <a href="contact.html">Contact</a>
-            <a href="voorwaarden.html">Algemene voorwaarden</a>
-        </nav>
+        <div class="zoekbalk">
+            <input type="text" placeholder="Zoek een fiets...">
+            <img src="image/zoek.png" alt="Zoeken">
+        </div>
 
-    </header>
+        <div class="cart">
+            🛒
+        </div>
+
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="fietsen.html">Fietsen</a>
+        <a href="fietsverhuur.html">Fietsverhuur</a>
+        <a href="over-ons.html">Over ons</a>
+        <a href="contact.html">Contact</a>
+        <a href="voorwaarden.html">Algemene voorwaarden</a>
+    </nav>
+
+</header>
 
 
     <main>
 
-        <section class="hero">
+       <section class="hero">
 
-            <p class="hero-small">
-                BANNER / HERO FOTO-CAROUSEL
-            </p>
+    <!-- Linkerkant -->
+    <div class="hero-content">
 
-            <h1>
-                Jouw fiets, jouw vrijheid.
-            </h1>
+    
+        <h1>
+            Jouw fiets, jouw vrijheid.
+        </h1>
 
-            <p class="hero-text">
-                Kwaliteitsfietsen voor elke rit — van stadstochten tot bergpaden.
-            </p>
+        <p class="hero-text">
+            Kwaliteitsfietsen voor elke rit — van stadstochten tot bergpaden.
+        </p>
 
-            <div class="hero-buttons">
+        <div class="hero-buttons">
 
-                <a href="fietsen.html" class="btn dark-btn">
-                    BEKIJK FIETSEN
-                </a>
+            <a href="fietsen.html" class="btn dark-btn">
+                BEKIJK FIETSEN
+            </a>
 
-                <a href="fietsverhuur.html" class="btn light-btn">
-                    FIETS HUREN
-                </a>
+            <a href="fietsverhuur.html" class="btn light-btn">
+                FIETS HUREN
+            </a>
 
-            </div>
+        </div>
 
-        </section>
+    </div>
+
+
+    <!-- Rechterkant: FOTO CAROUSEL -->
+    <div class="carousel">
+
+        <img src="image/sfeer/sfeer1.jpg" class="carousel-image active" alt="Fiets 1">
+
+        <img src="image/sfeer/sfeer2.jpg" class="carousel-image" alt="Fiets 2">
+
+        <img src="image/sfeer/sfeer3.jpg" class="carousel-image" alt="Fiets 3">
+
+        <!-- Vorige -->
+        <button class="carousel-btn prev" type="button">
+            ❮
+        </button>
+
+        <!-- Volgende -->
+        <button class="carousel-btn next" type="button">
+            ❯
+        </button>
+
+        <!-- Bolletjes -->
+        <div class="dots">
+
+            <span class="dot active"></span>
+
+            <span class="dot"></span>
+
+            <span class="dot"></span>
+
+        </div>
+
+    </div>
+
+</section>
 
     </main>
 
@@ -94,88 +134,82 @@
     </section>
 
 
-    <!-- Populaire fietsen -->
-    <section class="populaire-fietsen">
+   <!-- Populaire fietsen -->
+<section class="populaire-fietsen">
 
-        <h2>Populaire fietsen</h2>
+    <h2>Populaire fietsen</h2>
 
-        <div class="fietsen-container">
+    <div class="fietsen-container">
 
-            <div class="fiets-card">
-                <div class="fiets-foto">
-                    FIETSFOTO
-                </div>
 
-                <h3>Stadsfiets Classic</h3>
-                <p class="prijs">€ 599</p>
-                <p>Comfortabele stadsfiets voor dagelijks gebruik.</p>
+        <!-- Stadsfiets -->
+        <div class="fiets-card">
 
-                <a href="fietsen.html" class="fiets-btn">
-                    BEKIJK
-                </a>
+            <div class="fiets-foto">
+                <img src="image/indexfietsen/Stadsfiets Classic.jpg" alt="Stadsfiets Classic">
             </div>
 
+            <h3>Stadsfiets Classic</h3>
 
-            <div class="fiets-card">
-                <div class="fiets-foto">
-                    FIETSFOTO
-                </div>
+            <p class="prijs">€ 599</p>
 
-                <h3>E-bike Comfort</h3>
-                <p class="prijs">€ 1.899</p>
-                <p>Elektrische fiets voor comfortabele ritten.</p>
+            <p>
+                Comfortabele stadsfiets voor dagelijks gebruik.
+            </p>
 
-                <a href="fietsen.html" class="fiets-btn">
-                    BEKIJK
-                </a>
-            </div>
-
-
-            <div class="fiets-card">
-                <div class="fiets-foto">
-                    FIETSFOTO
-                </div>
-
-                <h3>Mountainbike Trail</h3>
-                <p class="prijs">€ 1.099</p>
-                <p>Sportieve mountainbike voor elk avontuur.</p>
-
-                <a href="fietsen.html" class="fiets-btn">
-                    BEKIJK
-                </a>
-            </div>
+            <a href="fietsen.html" class="fiets-btn">
+                BEKIJK
+            </a>
 
         </div>
 
-    </section>
 
+        <!-- E-bike -->
+        <div class="fiets-card">
 
-    <!-- Waarom Fluitende Fietser -->
-    <section class="waarom">
-
-        <h2>Waarom Fluitende Fietser?</h2>
-
-        <div class="waarom-container">
-
-            <div class="waarom-item">
-                <div class="waarom-icoon">✓</div>
-                <h3>Kwaliteit</h3>
-                <p>Betrouwbare fietsen van goede kwaliteit.</p>
+            <div class="fiets-foto">
+                <img src="image/indexfietsen/E-bike Comfort.webp" alt="E-bike Comfort">
             </div>
 
-            <div class="waarom-item">
-                <div class="waarom-icoon">⚙</div>
-                <h3>Service</h3>
-                <p>Persoonlijke service en deskundig advies.</p>
-            </div>
+            <h3>E-bike Comfort</h3>
 
-            <div class="waarom-item">
-                <div class="waarom-icoon">🚲</div>
-                <h3>Voor iedereen</h3>
-                <p>Een geschikte fiets voor iedere fietser.</p>
-            </div>
+            <p class="prijs">€ 1.899</p>
+
+            <p>
+                Elektrische fiets voor comfortabele ritten.
+            </p>
+
+            <a href="fietsen.html" class="fiets-btn">
+                BEKIJK
+            </a>
 
         </div>
+
+
+        <!-- Mountainbike -->
+        <div class="fiets-card">
+
+            <div class="fiets-foto">
+                <img src="image/indexfietsen/Mountainbike Trail.jpg" alt="Mountainbike Trail">
+            </div>
+
+            <h3>Mountainbike Trail</h3>
+
+            <p class="prijs">€ 1.099</p>
+
+            <p>
+                Sportieve mountainbike voor elk avontuur.
+            </p>
+
+            <a href="fietsen.html" class="fiets-btn">
+                BEKIJK
+            </a>
+
+        </div>
+
+
+    </div>
+
 
     </section>
 
