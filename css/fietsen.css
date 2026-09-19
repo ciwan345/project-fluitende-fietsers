@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-color: #f9c58d;
     color: #1f1f1f;
 }
 
@@ -20,8 +20,21 @@ body {
     color: white;
 }
 
+/* LOGO */
 .logo {
-    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.logo span {
+    font-size: 24px;
     font-weight: bold;
 }
 
@@ -224,4 +237,36 @@ footer {
 .footer-bottom p {
     color: #888;
     font-size: 13px;
+}
+
+
+
+
+
+
+
+
+/* =========================
+  .....................zoeken functie logo.........................
+========================= */
+
+
+
+.zoekbalk {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.zoekbalk input {
+    width: 250px;
+    padding: 10px;
+    border: none;
+}
+
+.zoekbalk img {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    object-fit: contain;
 }

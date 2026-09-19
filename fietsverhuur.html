@@ -8,36 +8,41 @@
     <title>Fietsverhuur - Fluitende Fietser</title>
 
     <link rel="stylesheet" href="css/fietsverhuur.css">
+     <link rel="icon" type="image/png" href="image/favicon.png">
 </head>
 
 <body>
 
-    <header>
+<header>
 
-        <div class="top-header">
+    <div class="top-header">
 
-            <div class="logo">
-                🚲 Fluitende Fietser
-            </div>
-
-            <input type="text" placeholder="Zoek een fiets...">
-
-            <div class="cart">
-                🛒
-            </div>
-
+        <div class="logo">
+            <img src="image/logo.png" alt="Fluitende Fietser">
+            <span>Fluitende Fietser</span>
         </div>
 
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="fietsen.html">Fietsen</a>
-            <a href="fietsverhuur.html" class="active">Fietsverhuur</a>
-            <a href="over-ons.html">Over ons</a>
-            <a href="contact.html">Contact</a>
-            <a href="voorwaarden.html">Algemene voorwaarden</a>
-        </nav>
+        <div class="zoekbalk">
+            <input type="text" placeholder="Zoek een fiets...">
+            <img src="image/zoek.png" alt="Zoeken">
+        </div>
 
-    </header>
+        <div class="cart">
+            🛒
+        </div>
+
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="fietsen.html">Fietsen</a>
+        <a href="fietsverhuur.html">Fietsverhuur</a>
+        <a href="over-ons.html">Over ons</a>
+        <a href="contact.html">Contact</a>
+        <a href="voorwaarden.html">Algemene voorwaarden</a>
+    </nav>
+
+</header>
 
 
     <main>
@@ -55,148 +60,150 @@
         </section>
 
 
-        <section class="verhuur">
+       <section class="verhuur">
 
-            <div class="verhuur-grid">
-
-                <!-- FIETS 1 -->
-                <div class="verhuur-card">
-
-                    <div class="verhuur-foto">
-                        FOTO
-                    </div>
-
-                    <div class="verhuur-info">
-
-                        <span class="beschikbaar">
-                            BESCHIKBAAR
-                        </span>
-
-                        <h3>City Cruiser</h3>
-
-                        <p>
-                            Comfortabele stadsfiets.
-                        </p>
-
-                        <div class="verhuur-bottom">
-
-                            <strong>€ 12,- / dag</strong>
-
-                            <button type="button">
-                                RESERVEREN
-                            </button>
-
-                        </div>
-
-                    </div>
-
-                </div>
+    <div class="verhuur-grid">
 
 
-                <!-- FIETS 2 -->
-                <div class="verhuur-card">
+        <!-- FIETS 1 -->
+        <div class="verhuur-card">
 
-                    <div class="verhuur-foto">
-                        FOTO
-                    </div>
+            <div class="verhuur-foto">
+                <img src="image/verhuurfietsen/city.avif" alt="City Cruiser">
+            </div>
 
-                    <div class="verhuur-info">
+            <div class="verhuur-info">
 
-                        <span class="beschikbaar">
-                            BESCHIKBAAR
-                        </span>
+                <span class="beschikbaar">
+                    BESCHIKBAAR
+                </span>
 
-                        <h3>Trail Blazer MTB</h3>
+                <h3>City Cruiser</h3>
 
-                        <p>
-                            Mountainbike voor bos en natuur.
-                        </p>
+                <p>
+                    Comfortabele stadsfiets.
+                </p>
 
-                        <div class="verhuur-bottom">
+                <div class="verhuur-bottom">
 
-                            <strong>€ 18,- / dag</strong>
+                    <strong>€ 12,- / dag</strong>
 
-                            <button type="button">
-                                RESERVEREN
-                            </button>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <!-- FIETS 3 -->
-                <div class="verhuur-card verhuurd">
-
-                    <div class="verhuur-foto">
-                        FOTO
-                    </div>
-
-                    <div class="verhuur-info">
-
-                        <span class="niet-beschikbaar">
-                            VERHUURD
-                        </span>
-
-                        <h3>E-Boost 250W</h3>
-
-                        <p>
-                            Elektrische fiets, 80 km actieradius.
-                        </p>
-
-                        <div class="verhuur-bottom">
-
-                            <strong>€ 25,- / dag</strong>
-
-                            <button type="button" disabled>
-                                NIET BESCHIKBAAR
-                            </button>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <!-- FIETS 4 -->
-                <div class="verhuur-card">
-
-                    <div class="verhuur-foto">
-                        FOTO
-                    </div>
-
-                    <div class="verhuur-info">
-
-                        <span class="beschikbaar">
-                            BESCHIKBAAR
-                        </span>
-
-                        <h3>Tandem Duo</h3>
-
-                        <p>
-                            Tandemfiets voor twee personen.
-                        </p>
-
-                        <div class="verhuur-bottom">
-
-                            <strong>€ 20,- / dag</strong>
-
-                            <button type="button">
-                                RESERVEREN
-                            </button>
-
-                        </div>
-
-                    </div>
+                    <button type="button">
+                        RESERVEREN
+                    </button>
 
                 </div>
 
             </div>
 
-        </section>
+        </div>
+
+
+        <!-- FIETS 2 -->
+        <div class="verhuur-card">
+
+            <div class="verhuur-foto">
+                <img src="image/verhuurfietsen/trailer.webp" alt="Trail Blazer MTB">
+            </div>
+
+            <div class="verhuur-info">
+
+                <span class="beschikbaar">
+                    BESCHIKBAAR
+                </span>
+
+                <h3>Trail Blazer MTB</h3>
+
+                <p>
+                    Mountainbike voor bos en natuur.
+                </p>
+
+                <div class="verhuur-bottom">
+
+                    <strong>€ 18,- / dag</strong>
+
+                    <button type="button">
+                        RESERVEREN
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- FIETS 3 -->
+        <div class="verhuur-card verhuurd">
+
+            <div class="verhuur-foto">
+                <img src="image/verhuurfietsen/boost.webp" alt="E-Boost 250W">
+            </div>
+
+            <div class="verhuur-info">
+
+                <span class="niet-beschikbaar">
+                    VERHUURD
+                </span>
+
+                <h3>E-Boost 250W</h3>
+
+                <p>
+                    Elektrische fiets, 80 km actieradius.
+                </p>
+
+                <div class="verhuur-bottom">
+
+                    <strong>€ 25,- / dag</strong>
+
+                    <button type="button" disabled>
+                        NIET BESCHIKBAAR
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- FIETS 4 -->
+        <div class="verhuur-card">
+
+            <div class="verhuur-foto">
+                <img src="image/verhuurfietsen/tandem.jpg" alt="Tandem Duo">
+            </div>
+
+            <div class="verhuur-info">
+
+                <span class="beschikbaar">
+                    BESCHIKBAAR
+                </span>
+
+                <h3>Tandem Duo</h3>
+
+                <p>
+                    Tandemfiets voor twee personen.
+                </p>
+
+                <div class="verhuur-bottom">
+
+                    <strong>€ 20,- / dag</strong>
+
+                    <button type="button">
+                        RESERVEREN
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
 
 
         <section class="verhuur-extra">
