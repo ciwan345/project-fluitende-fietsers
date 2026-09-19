@@ -10,32 +10,87 @@ function tijdweergave() {
     const zin = document.getElementById("opendicht");
     const dot = document.querySelector(".status-dot");
 
+    const dag = nu.getDay(); // 0 = zondag, 6 = zaterdag
 
-    if (uren >= 10 && uren < 18) {
-        zin.textContent = "winkel geopend";
-        zin.style.color = "green";
-        dot.style.backgroundColor = "green"; 
-    } else {
+    if (dag === 0) {
         zin.textContent = "winkel gesloten";
         zin.style.color = "crimson";
-        dot.style.backgroundColor = "red"; 
-
-      
+        dot.style.backgroundColor = "red";
     }
 
+    // 2. ZATERDAG (9–17)
+    else if (dag === 6 && uren >= 9 && uren <= 17) {
+        zin.textContent = "winkel geopend";
+        zin.style.color = "green";
+        dot.style.backgroundColor = "green";
+    }
+
+    // 3. DOORDEWEEKS (9–18)
+    else if (dag !== 6 && uren >= 9 && uren < 18) {
+        zin.textContent = "winkel geopend";
+        zin.style.color = "green";
+        dot.style.backgroundColor = "green";
+    }
+
+     else {
+        zin.textContent = "winkel gesloten";
+        zin.style.color = "crimson";
+        dot.style.backgroundColor = "red";
+    }
+    
     document.getElementById("tijdstatus").textContent = tijd + " — ";
 }
 
 setInterval(tijdweergave, 1000);
 tijdweergave();
 
-
+window.onload = fietsbewegen()
 
 function fietsbewegen()
 {
     const bewegen = document.querySelector(".fietser")
 
-    bewegen.style.backgroundColor = 'blue'
+    
+    let x = 0;
+    let richting = -1; // eerst naar links
+    let rotate = 0
+
+    setInterval(() => {
+        x += richting * 3;
+        // rotate += richting * -10
+        let scale = 1
+        
+
+        
+        if (x < -65) {
+            richting = 1;
+            scale = 1.3
+                
+        }
+        else if (x < -50){
+            scale = 1.2
+        }
+        else if (x < -35){
+            scale = 1.2
+        }
+        else if (x < -25){
+            scale = 1.1
+        }
+
+
+        
+        if (x > 20) {
+            richting = -1;
+            scale = 0 
+
+            
+        }
+
+        bewegen.style.transform = `translateX(${x}px) scale(${scale})`;
+        
+    }, 900);
+
+    
 
     
 }
