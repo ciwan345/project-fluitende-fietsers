@@ -28,3 +28,13 @@ function tijdweergave() {
 
 setInterval(tijdweergave, 1000);
 tijdweergave();
+
+
+function fietsbewegen()
+{
+    const bewegen = document.querySelector(".fietser")
+
+    bewegen.style.backgroundColor = 'blue'
+
+    
+}
