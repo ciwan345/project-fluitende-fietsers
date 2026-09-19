@@ -40,7 +40,7 @@ body {
 
 .top-header input {
     margin-left: 30px;
-    width: 250px;
+    width: 600px;
     padding: 10px;
     border: none;
     background-color: white;
@@ -257,7 +257,7 @@ footer {
 }
 
 .zoekbalk input {
-    width: 250px;
+    width: 600px;
     padding: 10px;
     border: none;
 }

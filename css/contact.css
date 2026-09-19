@@ -10,7 +10,10 @@ body {
     color: #1f1f1f;
 }
 
-/* HEADER */
+
+/* =========================
+   HEADER
+========================= */
 
 .top-header {
     display: flex;
@@ -20,7 +23,6 @@ body {
     color: white;
 }
 
-/* LOGO */
 .logo {
     display: flex;
     align-items: center;
@@ -40,7 +42,7 @@ body {
 
 .top-header input {
     margin-left: 30px;
-    width: 250px;
+    width: 600px;
     padding: 10px;
     border: none;
     background-color: white;
@@ -51,7 +53,10 @@ body {
     font-size: 22px;
 }
 
-/* NAVIGATION */
+
+/* =========================
+   NAVIGATION
+========================= */
 
 nav {
     display: flex;
@@ -75,7 +80,10 @@ nav .active {
     border-bottom: 3px solid #f6b26b;
 }
 
-/* PAGINA TITEL */
+
+/* =========================
+   PAGINA TITEL
+========================= */
 
 .pagina-titel {
     padding: 50px;
@@ -99,19 +107,26 @@ nav .active {
     color: #666;
 }
 
-/* CONTACT SECTION */
+
+/* =========================
+   CONTACT SECTION
+========================= */
 
 .contact-section {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 40px;
     padding: 50px;
     background-color: white;
+    align-items: start;
 }
 
-/* FORMULIER */
+
+/* =========================
+   CONTACT FORMULIER
+========================= */
 
 .contact-formulier {
-    flex: 1;
     padding: 25px;
     background-color: #f6b26b;
     border-left: 6px solid #f6b26b;
@@ -159,15 +174,14 @@ nav .active {
     cursor: pointer;
 }
 
-.contact-formulier button:hover {
-    background-color: #f6b26b;
-    color: #1f1f1f;
-}
 
-/* CONTACT INFO */
+
+/* =========================
+   CONTACT INFO
+========================= */
 
 .contact-info {
-    flex: 1;
+    width: 100%;
 }
 
 .contact-blok {
@@ -186,17 +200,58 @@ nav .active {
     margin-bottom: 6px;
 }
 
+
+/* =========================
+   CONTACT FOTO
+========================= */
+
 .contact-foto {
-    height: 170px;
+    width: 100%;
+    height: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #d9d9d9;
-    color: #777;
+    overflow: hidden;
+    background-color: white;
     border-bottom: 4px solid #f6b26b;
 }
 
-/* FOOTER */
+.contact-foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    display: block;
+}
+
+
+/* =========================
+   ZOEKBALK
+========================= */
+
+.zoekbalk {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.zoekbalk input {
+    width: 600px;
+    padding: 10px;
+    border: none;
+}
+
+.zoekbalk img {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    object-fit: contain;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
 
 footer {
     background-color: #1f1f1f;
@@ -251,32 +306,49 @@ footer {
 }
 
 
-
-
-
-
-
 /* =========================
-  .....................zoeken functie logo.........................
+   RESPONSIVE
 ========================= */
 
+@media (max-width: 768px) {
 
+    .top-header {
+        padding: 15px 20px;
+        flex-wrap: wrap;
+    }
 
-.zoekbalk {
-    display: flex;
-    align-items: center;
-    margin-left: 30px;
-}
+    .top-header input {
+        width: 180px;
+        margin-left: 15px;
+    }
 
-.zoekbalk input {
-    width: 250px;
-    padding: 10px;
-    border: none;
-}
+    nav {
+        padding-left: 0;
+        flex-wrap: wrap;
+    }
 
-.zoekbalk img {
-    width: 25px;
-    height: 25px;
-    margin-left: 10px;
-    object-fit: contain;
+    nav a {
+        padding: 12px 15px;
+    }
+
+    .pagina-titel {
+        padding: 30px 20px;
+    }
+
+    .pagina-titel h1 {
+        font-size: 28px;
+    }
+
+    .contact-section {
+        grid-template-columns: 1fr;
+        padding: 30px 20px;
+    }
+
+    .contact-foto {
+        height: 250px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
 }
