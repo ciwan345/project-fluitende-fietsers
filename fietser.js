@@ -95,25 +95,19 @@ function fietsbewegen()
     
 }
 
-const winkelimg = document.querySelector(".cart")
-winkelimg.style.transition = "transform 0.4s ease-in-out";
+const carts = document.querySelectorAll(".cart");
 
-winkelimg.addEventListener("click", ()=>{
-    window.location.href = "winkelwagen.html"
- 
-})
+carts.forEach(cart => {
+    cart.style.transition = "transform 0.4s ease-out";
+
+    cart.addEventListener("click", () => {
+        window.location.href = "winkelwagen.html";
+    });
+});
 
 
-winkelimg.addEventListener("mouseover", ()=>{
-    
-    winkelimg.style.transform = "scale(2)";
-    // winkelimg.style.boxShadow  = "0 0 20px rgba(230, 172, 14, 0.6)";
 
-     winkelimg.addEventListener("mouseleave", ()=>{
-        winkelimg.style.transform = "none";
 
-})
-})
 
 
 //..................Foto carousel maken op de hoofdpagina ................................
