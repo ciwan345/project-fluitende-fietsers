@@ -1,5 +1,12 @@
 function tijdweergave() {
 
+    const zin = document.getElementById("opendicht");
+    const dot = document.querySelector(".status-dot");
+    const tijdstatus = document.getElementById("tijdstatus");
+
+    // STOP als deze pagina geen winkelstatus heeft
+    if (!zin || !dot || !tijdstatus) return;
+
     const nu = new Date();
     const tijd = nu.toLocaleTimeString("nl-NL", {
         hour: "2-digit",
@@ -7,9 +14,6 @@ function tijdweergave() {
     });
 
     const uren = nu.getHours();
-    const zin = document.getElementById("opendicht");
-    const dot = document.querySelector(".status-dot");
-
     const dag = nu.getDay(); // 0 = zondag, 6 = zaterdag
 
     if (dag === 0) {
@@ -18,34 +22,32 @@ function tijdweergave() {
         dot.style.backgroundColor = "red";
     }
 
-    // 2. ZATERDAG (9–17)
     else if (dag === 6 && uren >= 9 && uren <= 17) {
         zin.textContent = "winkel geopend";
         zin.style.color = "green";
         dot.style.backgroundColor = "green";
     }
 
-    // 3. DOORDEWEEKS (9–18)
     else if (dag !== 6 && uren >= 9 && uren < 18) {
         zin.textContent = "winkel geopend";
         zin.style.color = "green";
         dot.style.backgroundColor = "green";
     }
 
-     else {
+    else {
         zin.textContent = "winkel gesloten";
         zin.style.color = "crimson";
         dot.style.backgroundColor = "red";
     }
-    
-    document.getElementById("tijdstatus").textContent = tijd + " — ";
-}
 
+    tijdstatus.textContent = tijd + " — ";
+}
 setInterval(tijdweergave, 1000);
 tijdweergave();
 
-window.onload = fietsbewegen()
 
+
+window.onload = fietsbewegen()
 function fietsbewegen()
 {
     const bewegen = document.querySelector(".fietser")
@@ -96,13 +98,42 @@ function fietsbewegen()
 }
 
 const carts = document.querySelectorAll(".cart");
-
 carts.forEach(cart => {
     cart.style.transition = "transform 0.4s ease-out";
 
     cart.addEventListener("click", () => {
         window.location.href = "winkelwagen.html";
     });
+});
+
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    const productCards = document.querySelectorAll(".product-card");
+    const totaalElement = document.querySelector(".betaal-overzicht h3");
+
+    function updateTotaal() {
+        let totaal = 0;
+
+        productCards.forEach(card => {
+            const prijsText = card.querySelector("p").textContent; 
+            const prijs = Number(prijsText.replace(/[^0-9]/g, "")); 
+            const aantal = Number(card.querySelector("input").value);
+
+            totaal += prijs * aantal;
+        });
+
+        totaalElement.textContent = `Totaal: € ${totaal}`;
+    }
+
+    productCards.forEach(card => {
+        const input = card.querySelector("input");
+        input.addEventListener("input", updateTotaal);
+    });
+
+    updateTotaal();
 });
 
 
