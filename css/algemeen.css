@@ -1,7 +1,4 @@
 
-
-
-
 .cart{
     transition: transform 0.3s ease;
     cursor: pointer;
@@ -12,3 +9,6 @@
 .cart:hover {
     transform: scale(1.55);
 }
+
+
+
