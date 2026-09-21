@@ -1,0 +1,16 @@
+C:\School\lj2\wpf\projecten\WpfApp2Betaalsysteem\WpfApp2Betaalsysteem\bin\Debug\WpfApp2Betaalsysteem.exe.config
+C:\School\lj2\wpf\projecten\WpfApp2Betaalsysteem\WpfApp2Betaalsysteem\bin\Debug\WpfApp2Betaalsysteem.exe
+C:\School\lj2\wpf\projecten\WpfApp2Betaalsysteem\WpfApp2Betaalsysteem\bin\Debug\WpfApp2Betaalsysteem.pdb
+C:\School\lj2\wpf\projecten\WpfApp2Betaalsysteem\WpfApp2Betaalsysteem\obj\Debug\WpfApp2Betaalsysteem.csproj.AssemblyReference.cache
+C:\School\lj2\wpf\projecten\WpfApp2Betaalsysteem\WpfApp2Betaalsysteem\obj\Debug\MainWindow.g.cs
+C:\School\lj2\wpf\projecten\WpfApp2Betaalsysteem\WpfApp2Betaalsysteem\obj\Debug\App.g.cs
+C:\School\lj2\wpf\projecten\WpfApp2Betaalsysteem\WpfApp2Betaalsysteem\obj\Debug\WpfApp2Betaalsysteem_MarkupCompile.cache
+C:\School\lj2\wpf\projecten\WpfApp2Betaalsysteem\WpfApp2Betaalsysteem\obj\Debug\WpfApp2Betaalsysteem_MarkupCompile.lref
+C:\School\lj2\wpf\projecten\WpfApp2Betaalsysteem\WpfApp2Betaalsysteem\obj\Debug\MainWindow.baml
+C:\School\lj2\wpf\projecten\WpfApp2Betaalsysteem\WpfApp2Betaalsysteem\obj\Debug\WpfApp2Betaalsysteem.g.resources
+C:\School\lj2\wpf\projecten\WpfApp2Betaalsysteem\WpfApp2Betaalsysteem\obj\Debug\WpfApp2Betaalsysteem.Properties.Resources.resources
+C:\School\lj2\wpf\projecten\WpfApp2Betaalsysteem\WpfApp2Betaalsysteem\obj\Debug\WpfApp2Betaalsysteem.csproj.GenerateResource.cache
+C:\School\lj2\wpf\projecten\WpfApp2Betaalsysteem\WpfApp2Betaalsysteem\obj\Debug\WpfApp2Betaalsysteem.csproj.CoreCompileInputs.cache
+C:\School\lj2\wpf\projecten\WpfApp2Betaalsysteem\WpfApp2Betaalsysteem\obj\Debug\WpfApp2Betaalsysteem.exe
+C:\School\lj2\wpf\projecten\WpfApp2Betaalsysteem\WpfApp2Betaalsysteem\obj\Debug\WpfApp2Betaalsysteem.pdb
+C:\School\lj2\wpf\projecten\WpfApp2Betaalsysteem\WpfApp2Betaalsysteem\obj\Debug\WpfApp2Betaalsysteem.exe.config
