@@ -273,6 +273,13 @@ footer {
     font-size: 13px;
 }
 
+#veld1,
+#veld2{
+    color: black;
+    border-bottom: 2px solid goldenrod;
+
+}
+
 
 
 

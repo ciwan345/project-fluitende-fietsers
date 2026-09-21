@@ -137,6 +137,23 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+const aantallen1 = document.getElementById("aantal1")
+const aantallen2 = document.getElementById("aantal2")
+const vullen1 = document.getElementById("veld1")
+const vullen2 = document.getElementById("veld2")
+
+aantallen1.addEventListener("input", ()=>{
+    vullen1.textContent = aantallen1.value
+
+})
+
+aantallen2.addEventListener("input", ()=>{
+    vullen2.textContent = aantallen2.value
+})
+
+
+
+
 
 
 
