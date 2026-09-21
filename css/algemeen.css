@@ -2,8 +2,10 @@
 .cart{
     transition: transform 0.3s ease;
     cursor: pointer;
-    width: 30px;
-    margin-left: 70px;   
+    margin-left: 15px;
+
+    
+    width: 30px; 
 }
 
 .cart:hover {
