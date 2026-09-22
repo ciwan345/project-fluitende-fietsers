@@ -149,10 +149,24 @@ inputvelden.forEach((input, md) => {
 });
 
 
-const subtotal = document.querySelectorAll("#subtotaal")
 
 
+const prijzen = document.querySelectorAll(".subtotaal");
+const aantallen = document.querySelectorAll(".aantal");
 
+// originele prijzen opslaan
+const originelePrijzen = Array.from(prijzen).map(veld =>
+    Number(veld.textContent.replace("€", "").trim())
+);
+
+aantallen.forEach((input, i) => {
+    input.addEventListener("input", () => {
+        const aantal = Number(input.value);
+        const prijs = originelePrijzen[i];
+        const totaal = prijs * aantal;
+        prijzen[i].textContent = "€ " + totaal;
+    });
+});
 
 
 //..................Foto carousel maken op de hoofdpagina ................................
