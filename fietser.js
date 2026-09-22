@@ -164,8 +164,15 @@ aantallen.forEach((input, i) => {
         const aantal = Number(input.value);
         const prijs = originelePrijzen[i];
         const totaal = prijs * aantal;
+
         prijzen[i].textContent = "€ " + totaal;
+
+        if(prijzen[i].textContent.length > 10){
+             prijzen[i].textContent = "€ " + totaal.toFixed(3)
+        }
     });
+
+
 });
 
 
