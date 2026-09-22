@@ -1,56 +1,58 @@
-function tijdweergave() {
+function tijdweergave() { 
+ 
+    const zin = document.getElementById("opendicht"); 
+    const dot = document.querySelector(".status-dot"); 
+    const tijdstatus = document.getElementById("tijdstatus"); 
+ 
+    // STOP als deze pagina geen winkelstatus heeft 
+    if (!zin || !dot || !tijdstatus) return; 
+ 
+    const nu = new Date(); 
+    const tijd = nu.toLocaleTimeString("nl-NL", { 
+        hour: "2-digit", 
+        minute: "2-digit" 
+    }); 
+ 
+    const uren = nu.getHours(); 
+    const dag = nu.getDay(); // 0 = zondag, 6 = zaterdag 
+ 
+    if (dag === 0) { 
+        zin.textContent = "winkel gesloten"; 
+        zin.style.color = "crimson"; 
+        dot.style.backgroundColor = "red"; 
+    } 
+ 
+    else if (dag === 6 && uren >= 9 && uren <= 17) { 
+        zin.textContent = "winkel geopend"; 
+        zin.style.color = "green"; 
+        dot.style.backgroundColor = "green"; 
+    } 
+ 
+    else if (dag !== 6 && uren >= 9 && uren < 18) { 
+        zin.textContent = "winkel geopend"; 
+        zin.style.color = "green"; 
+        dot.style.backgroundColor = "green"; 
+    } 
+ 
+    else { 
+        zin.textContent = "winkel gesloten"; 
+        zin.style.color = "crimson"; 
+        dot.style.backgroundColor = "red"; 
+    } 
+ 
+    tijdstatus.textContent = tijd + " — "; 
+} 
 
-    const zin = document.getElementById("opendicht");
-    const dot = document.querySelector(".status-dot");
-    const tijdstatus = document.getElementById("tijdstatus");
+setInterval(tijdweergave, 1000); 
+tijdweergave(); 
+ 
+ 
+ 
+window.onload = fietsbewegen;
 
-    // STOP als deze pagina geen winkelstatus heeft
-    if (!zin || !dot || !tijdstatus) return;
-
-    const nu = new Date();
-    const tijd = nu.toLocaleTimeString("nl-NL", {
-        hour: "2-digit",
-        minute: "2-digit"
-    });
-
-    const uren = nu.getHours();
-    const dag = nu.getDay(); // 0 = zondag, 6 = zaterdag
-
-    if (dag === 0) {
-        zin.textContent = "winkel gesloten";
-        zin.style.color = "crimson";
-        dot.style.backgroundColor = "red";
-    }
-
-    else if (dag === 6 && uren >= 9 && uren <= 17) {
-        zin.textContent = "winkel geopend";
-        zin.style.color = "green";
-        dot.style.backgroundColor = "green";
-    }
-
-    else if (dag !== 6 && uren >= 9 && uren < 18) {
-        zin.textContent = "winkel geopend";
-        zin.style.color = "green";
-        dot.style.backgroundColor = "green";
-    }
-
-    else {
-        zin.textContent = "winkel gesloten";
-        zin.style.color = "crimson";
-        dot.style.backgroundColor = "red";
-    }
-
-    tijdstatus.textContent = tijd + " — ";
-}
-setInterval(tijdweergave, 1000);
-tijdweergave();
-
-
-
-window.onload = fietsbewegen()
-function fietsbewegen()
-{
-    const bewegen = document.querySelector(".fietser")
+function fietsbewegen() 
+{ 
+    const bewegen = document.querySelector(".fietser");
 
     
     let x = 0;
@@ -147,6 +149,10 @@ inputvelden.forEach((input, md) => {
 });
 
 
+const subtotal = document.querySelectorAll("#subtotaal")
+
+subtotal.forEach("")
+
 
 
 //..................Foto carousel maken op de hoofdpagina ................................
@@ -161,64 +167,64 @@ const prevButton = document.querySelector(".prev");
 
 let currentImage = 0;
 
+if (images.length > 0 && dots.length > 0 && nextButton && prevButton) {
+ 
+    function showImage(index) { 
+ 
+        images.forEach(function(image) { 
+            image.classList.remove("active"); 
+        }); 
+ 
+        dots.forEach(function(dot) { 
+            dot.classList.remove("active"); 
+        }); 
+ 
+        images[index].classList.add("active"); 
+        dots[index].classList.add("active"); 
+ 
+        currentImage = index; 
+    } 
+ 
+ 
+    // Volgende foto 
+    nextButton.addEventListener("click", function() { 
+ 
+        currentImage++; 
+ 
+        if (currentImage >= images.length) { 
+            currentImage = 0; 
+        } 
+ 
+        showImage(currentImage); 
+ 
+    }); 
+ 
+ 
+    // Vorige foto 
+    prevButton.addEventListener("click", function() { 
+ 
+        currentImage--; 
+ 
+        if (currentImage < 0) { 
+            currentImage = images.length - 1; 
+        } 
+ 
+        showImage(currentImage); 
+ 
+    }); 
+ 
+ 
+    // Automatisch wisselen 
+    setInterval(function() { 
+ 
+        currentImage++; 
+ 
+        if (currentImage >= images.length) { 
+            currentImage = 0; 
+        } 
+ 
+        showImage(currentImage); 
+ 
+    }, 4000); 
 
-function showImage(index) {
-
-    images.forEach(function(image) {
-        image.classList.remove("active");
-    });
-
-    dots.forEach(function(dot) {
-        dot.classList.remove("active");
-    });
-
-    images[index].classList.add("active");
-    dots[index].classList.add("active");
-
-    currentImage = index;
 }
-
-
-/* Volgende foto */
-
-nextButton.addEventListener("click", function() {
-
-    currentImage++;
-
-    if (currentImage >= images.length) {
-        currentImage = 0;
-    }
-
-    showImage(currentImage);
-
-});
-
-
-/* Vorige foto */
-
-prevButton.addEventListener("click", function() {
-
-    currentImage--;
-
-    if (currentImage < 0) {
-        currentImage = images.length - 1;
-    }
-
-    showImage(currentImage);
-
-});
-
-
-/* Automatisch wisselen */
-
-setInterval(function() {
-
-    currentImage++;
-
-    if (currentImage >= images.length) {
-        currentImage = 0;
-    }
-
-    showImage(currentImage);
-
-}, 4000);
