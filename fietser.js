@@ -151,7 +151,7 @@ inputvelden.forEach((input, md) => {
 
 const subtotal = document.querySelectorAll("#subtotaal")
 
-subtotal.forEach("")
+
 
 
 
