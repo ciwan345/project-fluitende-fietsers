@@ -147,10 +147,6 @@ inputvelden.forEach((input, md) => {
 });
 
 
-const subtotal = document.querySelectorAll("#subtotaal")
-
-subtotal.forEach("")
-
 
 
 //..................Foto carousel maken op de hoofdpagina ................................
