@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\School\\lj2\\wpf\\projecten\\WpfApp2Betaalsysteem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{713AE695-8723-475A-B633-9F5BBDFFEDC7}|WpfApp2Betaalsysteem\\WpfApp2Betaalsysteem.csproj|c:\\school\\lj2\\wpf\\projecten\\wpfapp2betaalsysteem\\wpfapp2betaalsysteem\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{713AE695-8723-475A-B633-9F5BBDFFEDC7}|WpfApp2Betaalsysteem\\WpfApp2Betaalsysteem.csproj|solutionrelative:wpfapp2betaalsysteem\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{713AE695-8723-475A-B633-9F5BBDFFEDC7}|WpfApp2Betaalsysteem\\WpfApp2Betaalsysteem.csproj|c:\\school\\lj2\\wpf\\projecten\\wpfapp2betaalsysteem\\wpfapp2betaalsysteem\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{713AE695-8723-475A-B633-9F5BBDFFEDC7}|WpfApp2Betaalsysteem\\WpfApp2Betaalsysteem.csproj|solutionrelative:wpfapp2betaalsysteem\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\School\\lj2\\wpf\\projecten\\WpfApp2Betaalsysteem\\WpfApp2Betaalsysteem\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp2Betaalsysteem\\MainWindow.xaml",
+              "ToolTip": "C:\\School\\lj2\\wpf\\projecten\\WpfApp2Betaalsysteem\\WpfApp2Betaalsysteem\\MainWindow.xaml",
+              "RelativeToolTip": "WpfApp2Betaalsysteem\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-15T12:24:17.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\School\\lj2\\wpf\\projecten\\WpfApp2Betaalsysteem\\WpfApp2Betaalsysteem\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp2Betaalsysteem\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\School\\lj2\\wpf\\projecten\\WpfApp2Betaalsysteem\\WpfApp2Betaalsysteem\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "WpfApp2Betaalsysteem\\MainWindow.xaml.cs*",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T12:24:17.756Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
