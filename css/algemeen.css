@@ -1,0 +1,15 @@
+
+.cart{
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    margin-left: 150px;
+
+    
+    width: 30px; 
+}
+
+.cart:hover {
+    transform: scale(1.55);
+}
+
+
