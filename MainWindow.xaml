@@ -1,0 +1,50 @@
+<Window x:Class="DeFluitendeFietser.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="De Fluitende Fietser" Height="780" Width="1250"
+        MinHeight="560" MinWidth="850" WindowStartupLocation="CenterScreen"
+        Background="#F3F6F8">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="230" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Navigatie links -->
+        <Border Grid.Column="0" Background="#163B50" Padding="16">
+            <DockPanel LastChildFill="True">
+                <StackPanel DockPanel.Dock="Top" Margin="0,0,0,24">
+                    <TextBlock Text="De Fluitende Fietser" Foreground="White" FontSize="22"
+                               FontWeight="Bold" TextWrapping="Wrap" />
+                    <TextBlock Text="Kies een onderdeel" Foreground="#DCEAF2" FontSize="13"
+                               Margin="0,8,0,0" />
+                </StackPanel>
+                <StackPanel DockPanel.Dock="Top">
+                    <Button Content="🛒  Bestelpagina" Click="Bestelpagina_Openen" Height="52" Margin="0,0,0,10"
+                            HorizontalContentAlignment="Left" Padding="12,0" Background="#168575" Foreground="White" FontSize="15" />
+                    <Button Content="€  Betaalsysteem" Click="Betaalsysteem_Openen" Height="52" Margin="0,0,0,10"
+                            HorizontalContentAlignment="Left" Padding="12,0" Background="#1769AA" Foreground="White" FontSize="15" />
+                    <Button Content="🧮  Rekenmachine" Click="Rekenmachine_Openen" Height="52" Margin="0,0,0,10"
+                            HorizontalContentAlignment="Left" Padding="12,0" FontSize="15" />
+                    <Button Content="◷  Klok" Click="Klok_Openen" Height="52"
+                            HorizontalContentAlignment="Left" Padding="12,0" FontSize="15" />
+                </StackPanel>
+                <TextBlock DockPanel.Dock="Bottom" Text="De Fluitende Fietser" Foreground="#BBD0DB"
+                           FontSize="11" Margin="0,20,0,0" TextWrapping="Wrap" />
+            </DockPanel>
+        </Border>
+
+        <!-- Het gekozen originele venster verschijnt rechts -->
+        <Border Grid.Column="1" Margin="16" Padding="8" Background="White"
+                BorderBrush="#D6E0E6" BorderThickness="1" CornerRadius="8">
+            <Grid>
+                <TextBlock x:Name="WelkomTekst" Text="Kies links een onderdeel om het hier te openen."
+                           HorizontalAlignment="Center" VerticalAlignment="Center"
+                           Foreground="#526B7D" FontSize="20" TextWrapping="Wrap" />
+                <Viewbox x:Name="VensterViewbox" Stretch="Uniform" Visibility="Collapsed">
+                    <ContentControl x:Name="VensterInhoud" />
+                </Viewbox>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

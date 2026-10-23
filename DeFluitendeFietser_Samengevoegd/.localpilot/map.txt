@@ -1,0 +1,29 @@
+## WORKSPACE EXECUTIVE SUMMARY (YAML)
+# Generated: 2026-10-23T20:58:22.1819956+02:00
+# Root: C:\Users\JOWAN HAIDER\Desktop\Eindopdrachten wpf\DeFluitendeFietser_Samengevoegd
+Architecture:
+  Type: Backend (C#/.NET)
+  Scale: 9 relevant source files
+  Components: 0
+  Controllers: 0
+  Models: 0
+  Services: 0
+---
+- File: DeFluitendeFietser.csproj
+  Preview: "<Project Sdk='Microsoft.NET.Sdk'>  <PropertyGroup>   <OutputType>WinExe</OutputType>   <TargetFramework>net10.0-windows</TargetFramework>   <UseWPF>tr..."
+- File: DeFluitendeFietser.sln
+  Preview: "Microsoft Visual Studio Solution File, Format Version 12.00 # Visual Studio Version 18 VisualStudioVersion = 18.9.12128.139 oobstable MinimumVisualStu..."
+- File: App.xaml.cs
+  Preview: "using System.Windows; namespace DeFluitendeFietser {   public partial class App : Application   {   } } "
+- File: BestelpaginaWindow.xaml.cs
+  Preview: "using System; using System.Collections.Generic; using System.Globalization; using System.Linq; using System.Text; using System.Threading.Tasks; using ..."
+- File: BetaalsysteemWindow.xaml.cs
+  Preview: "using System; using System.Collections.Generic; using System.Linq; using System.Text; using System.Threading.Tasks; using System.Windows; using System..."
+- File: KlokWindow.xaml.cs
+  Preview: "using System.Text; using System.Windows; using System.Windows.Controls; using System.Windows.Data; using System.Windows.Documents; using System.Window..."
+- File: MainWindow.xaml.cs
+  Preview: "using System.Windows; using System.Windows.Controls; namespace DeFluitendeFietser {   public partial class MainWindow : Window   {     private Window?..."
+- File: README.txt
+  Preview: "De Fluitende Fietser - samengevoegde WPF-applicatie Open DeFluitendeFietser.sln in Visual Studio 2026. Stel DeFluitendeFietser in als Startup Project ..."
+- File: RekenmachineWindow.xaml.cs
+  Preview: "using System; using System.Collections.Generic; using System.Globalization; using System.Linq; using System.Text; using System.Threading.Tasks; using ..."
