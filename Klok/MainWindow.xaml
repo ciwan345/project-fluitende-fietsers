@@ -5,9 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Klok"
         mc:Ignorable="d"
-        Title="MainWindow" Height="500" Width="650">
+        Title="MainWindow" Height="550" Width="650">
 
 
+    
+  
     <Grid Margin="25">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -100,7 +102,7 @@
                             Click="ResetButton_Click"
                             Height="55"
                             Margin="5"
-                            FontSize="20"/>
+                            FontSize="20" Background="Red"/>
                 </Grid>
             </StackPanel>
         </Border>
