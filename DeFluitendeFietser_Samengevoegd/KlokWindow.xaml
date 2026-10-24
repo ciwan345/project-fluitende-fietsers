@@ -99,7 +99,7 @@
                             Click="ResetButton_Click"
                             Height="55"
                             Margin="5"
-                            FontSize="20"/>
+                            FontSize="20" Background="Red"/>
                 </Grid>
             </StackPanel>
         </Border>
