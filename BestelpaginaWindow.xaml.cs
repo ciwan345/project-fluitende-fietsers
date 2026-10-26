@@ -285,8 +285,7 @@ namespace DeFluitendeFietser
             }
         }
 
-        private void VolgendeKlant_Click(
-            object sender, RoutedEventArgs e)
+        private void VolgendeKlant_Click(object sender, RoutedEventArgs e)
         {
             ResetTimer();
 
@@ -323,6 +322,13 @@ namespace DeFluitendeFietser
 
                 WerkTotaalBij();
             }
+            else 
+            {
+                MessageBox.Show("Bestelling nog niet betaald");
+                return;
+            
+            }
+
         }
 
        

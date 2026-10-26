@@ -187,11 +187,12 @@
                 <StackPanel Grid.Row="2" Orientation="Horizontal">
                     <TextBlock FontSize="15" FontWeight="DemiBold" VerticalAlignment="Center"
                                Text="Totalprice orders = €"/>
+                    
                     <TextBox x:Name="TotaalPrijsTextBox" Width="80" Height="30" Margin="4,0,0,0"
                              VerticalAlignment="Center" Text="0"
                              PreviewTextInput="TotaalPrijsTextBox_PreviewTextInput"
                              LostFocus="TotaalPrijsTextBox_LostFocus"
-                             TextChanged="TotaalPrijsTextBox_TextChanged"/>
+                             TextChanged="TotaalPrijsTextBox_TextChanged" />
                 </StackPanel>
             </Grid>
         </Grid>
