@@ -357,14 +357,23 @@ namespace DeFluitendeFietser
             {
                 timer.Stop();
 
-                MessageBox.Show(
+                MessageBoxResult resultaat = MessageBox.Show(
                     "De applicatie wordt gesloten wegens inactiviteit.",
                     "Inactiviteit",
-                    MessageBoxButton.OK,
+                    MessageBoxButton.OKCancel,
                     MessageBoxImage.Information);
 
-                Application.Current.Shutdown();
+                if (resultaat == MessageBoxResult.Cancel)
+                {
+                    resterendeSeconden = 60;
+                    timer.Start();
+                }
+                else
+                {
+                    Application.Current.Shutdown();
+                }
             }
+
         }
     }
 

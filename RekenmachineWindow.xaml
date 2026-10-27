@@ -70,30 +70,30 @@
                      Columns="4"
                      >
 
-            <Button Content="7" Click="Btn_Click"/>
-            <Button Content="8" Click="Btn_Click"/>
-            <Button Content="9" Click="Btn_Click"/>
-            <Button Content="*" Click="Btn_Click"/>
+            <Button Content="7" Click="Btn_Click" FontSize="18"/>
+            <Button Content="8" Click="Btn_Click" FontSize="18"/>
+            <Button Content="9" Click="Btn_Click" FontSize="18"/>
+            <Button Content="*" Click="Btn_Click" FontSize="18"/>
 
-            <Button Content="4" Click="Btn_Click"/>
-            <Button Content="5" Click="Btn_Click"/>
-            <Button Content="6" Click="Btn_Click"/>
-            <Button Content="-" Click="Btn_Click"/>
+            <Button Content="4" Click="Btn_Click" FontSize="18"/>
+            <Button Content="5" Click="Btn_Click" FontSize="18"/>
+            <Button Content="6" Click="Btn_Click" FontSize="18"/>
+            <Button Content="-" Click="Btn_Click" FontSize="18"/>
 
-            <Button Content="1" Click="Btn_Click"/>
-            <Button Content="2" Click="Btn_Click"/>
-            <Button Content="3" Click="Btn_Click"/>
-            <Button Content="/" Click="Btn_Click"/>
+            <Button Content="1" Click="Btn_Click" FontSize="18"/>
+            <Button Content="2" Click="Btn_Click" FontSize="18"/>
+            <Button Content="3" Click="Btn_Click" FontSize="18"/>
+            <Button Content="/" Click="Btn_Click" FontSize="18"/>
 
-            <Button Content="+/-" Click="Btn_Click"/>
-            <Button Content="0" Click="Btn_Click"/>
-            <Button Content="," Click="Btn_Click"/>
-            <Button Content="+" Click="Btn_Click"/>
+            <Button Content="+/-" Click="Btn_Click" FontSize="18"/>
+            <Button Content="0" Click="Btn_Click" FontSize="18"/>
+            <Button Content="," Click="Btn_Click" FontSize="18"/>
+            <Button Content="+" Click="Btn_Click" FontSize="18"/>
 
-            <Button Content="C" Click="Btn_Click"/>
-            <Button Content="«" Click="Btn_Click"/>
-            <Button Content="π" Click="Btn_Click"/>
-            <Button Content="=" Click="Btn_Click"/>
+            <Button Content="C" Click="Btn_Click" FontSize="18"/>
+            <Button Content="«" Click="Btn_Click" FontSize="18"/>
+            <Button Content="π" Click="Btn_Click" FontSize="18"/>
+            <Button Content="=" Click="Btn_Click" FontSize="18"/>
 
         </UniformGrid>
     </Grid>

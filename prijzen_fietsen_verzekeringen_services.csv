@@ -1,9 +1,26 @@
-﻿Categorie,Product,PrijsPerDag
-Fietsen,Stadsfiets,10
-Fietsen,Elektrische fiets,20
-Fietsen,Mountainbike,15
-Verzekeringen,Basisverzekering,3
-Verzekeringen,Uitgebreide verzekering,5
-Services,Helm,2
-Services,Fietsslot,1
-Services,Kinderzitje,4s
+﻿
+Categorie,Product,PrijsPerDag
+Fietsen,Aanhangfiets,20.00
+Fietsen,Bakfiets,35.00
+Fietsen,Driewielfiets,30.00
+Fietsen,Elektrische fiets,30.00
+Fietsen,Kinderfiets,15.00
+Fietsen,Ligfiets,45.00
+Fietsen,Oma fiets,12.50
+Fietsen,Racefiets,15.00
+Fietsen,Speed pedelec,15.00
+Fietsen,Stadsfiets,12.50
+Fietsen,Vouwfiets,10.00
+Fietsen,Zitfiets,15.00
+Fietsen,Mountainbike,15.00
+Verzekeringen,Beschadigingen,5.00
+Verzekeringen,Diefstal eigen risico,10.00
+Verzekeringen,Rechtsbijstand,5.00
+Verzekeringen,Ongevallen,2.50
+Services,Helm,2.00
+Services,Fietsslot,1.00
+Services,Kinderzitje,4.00
+Services,Ophaalservice,15.00
+Services,Regenpak,10.00
+Services,Lunchpakket basis,12.50
+Services,Lunchpakket uitgebreid,20.00
