@@ -1,0 +1,53 @@
+<Window x:Class="DeFluitendeFietser.Views.CustomerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Klantenoverzicht" Height="520" Width="760"
+        WindowStartupLocation="CenterOwner" Background="#F3F5F7">
+    <Grid Margin="22">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Margin="0,0,0,16">
+            <TextBlock Text="Klantenoverzicht" FontSize="24" FontWeight="Bold" Foreground="#20364B"/>
+            <TextBlock Text="Klanten die een betaling hebben afgerond" Foreground="#718096" Margin="0,4,0,0"/>
+        </StackPanel>
+
+        <Grid Grid.Row="1" Margin="0,0,0,16">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Border Grid.Column="0" Background="White" CornerRadius="8" Padding="16" Margin="0,0,8,0">
+                <StackPanel>
+                    <TextBlock Text="AANTAL KLANTEN" FontSize="11" FontWeight="Bold" Foreground="#718096"/>
+                    <TextBlock x:Name="CustomerCountText" Text="0" FontSize="26" FontWeight="Bold" Foreground="#21856B" Margin="0,4,0,0"/>
+                </StackPanel>
+            </Border>
+            <Border Grid.Column="1" Background="White" CornerRadius="8" Padding="16" Margin="8,0,0,0">
+                <StackPanel>
+                    <TextBlock Text="TOTALE OMZET" FontSize="11" FontWeight="Bold" Foreground="#718096"/>
+                    <TextBlock x:Name="RevenueText" Text="€ 0,00" FontSize="26" FontWeight="Bold" Foreground="#21856B" Margin="0,4,0,0"/>
+                </StackPanel>
+            </Border>
+        </Grid>
+
+        <ListView x:Name="CustomerList" Grid.Row="2" Background="White" BorderThickness="0">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Klant" DisplayMemberBinding="{Binding CustomerName}" Width="100"/>
+                    <GridViewColumn Header="Tijd" DisplayMemberBinding="{Binding TimeText}" Width="80"/>
+                    <GridViewColumn Header="Producten" DisplayMemberBinding="{Binding ProductsText}" Width="300"/>
+                    <GridViewColumn Header="Totaal" DisplayMemberBinding="{Binding TotalText}" Width="110"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <Button Grid.Row="3" Content="Sluiten" Width="100" HorizontalAlignment="Right"
+                Margin="0,14,0,0" Padding="10,7" Click="CloseButton_Click"
+                Background="#20364B" Foreground="White"/>
+    </Grid>
+</Window>
