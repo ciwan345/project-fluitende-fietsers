@@ -4,7 +4,7 @@ function tijdweergave() {
     const dot = document.querySelector(".status-dot"); 
     const tijdstatus = document.getElementById("tijdstatus"); 
  
-    // STOP als deze pagina geen winkelstatus heeft 
+    
     if (!zin || !dot || !tijdstatus) return; 
  
     const nu = new Date(); 
@@ -14,7 +14,7 @@ function tijdweergave() {
     }); 
  
     const uren = nu.getHours(); 
-    const dag = nu.getDay(); // 0 = zondag, 6 = zaterdag 
+    const dag = nu.getDay(); 
  
     if (dag === 0) { 
         zin.textContent = "winkel gesloten"; 
@@ -139,14 +139,20 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-const inputvelden = document.querySelectorAll(".aantal");
-const em = document.querySelectorAll("#veld");
 
-inputvelden.forEach((input, md) => {
+
+window.onload = function()
+{
+    const inputvelden = document.querySelectorAll(".aantal");
+    const em = document.querySelectorAll("#veld");
+    
+    inputvelden.forEach((input, md) => {
     input.addEventListener("input", ()=>{
         em[md].textContent = input.value;
     });
 });
+
+};
 
 
 
