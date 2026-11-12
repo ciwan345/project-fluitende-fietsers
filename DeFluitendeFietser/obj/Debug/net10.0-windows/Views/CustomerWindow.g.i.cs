@@ -76,7 +76,7 @@ namespace DeFluitendeFietser.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/DeFluitendeFietser;V1.0.0.0;component/views/customerwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/DeFluitendeFietser;component/views/customerwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\CustomerWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

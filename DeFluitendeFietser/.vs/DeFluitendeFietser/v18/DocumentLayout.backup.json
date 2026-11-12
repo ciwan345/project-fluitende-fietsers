@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,10 +35,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Bookmark",
@@ -63,15 +59,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DeFluitendeFietser",
+              "Title": "DeFluitendeFietser.csproj",
               "DocumentMoniker": "C:\\Users\\school\\OneDrive - Summacollege O365\\Software development\\projectmatig werken basis\\project-fluitende-fietsers\\DeFluitendeFietser\\DeFluitendeFietser.csproj",
               "RelativeDocumentMoniker": "DeFluitendeFietser.csproj",
               "ToolTip": "C:\\Users\\school\\OneDrive - Summacollege O365\\Software development\\projectmatig werken basis\\project-fluitende-fietsers\\DeFluitendeFietser\\DeFluitendeFietser.csproj",
               "RelativeToolTip": "DeFluitendeFietser.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-11-12T08:20:23.112Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-12T08:20:23.112Z"
             }
           ]
         }
