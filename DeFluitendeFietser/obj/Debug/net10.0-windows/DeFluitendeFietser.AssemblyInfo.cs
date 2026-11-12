@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DeFluitendeFietser")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53fb874b334be942ee97e69fab916f102f76314c")]
 [assembly: System.Reflection.AssemblyProductAttribute("DeFluitendeFietser")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DeFluitendeFietser")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

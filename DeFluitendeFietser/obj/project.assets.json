@@ -8,23 +8,23 @@
     "net10.0-windows": []
   },
   "packageFolders": {
-    "C:\\Users\\JOWAN HAIDER\\.nuget\\packages\\": {},
+    "C:\\Users\\school\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JOWAN HAIDER\\Desktop\\New folder (4)\\DeFluitendeFietser\\DeFluitendeFietser.csproj",
+      "projectUniqueName": "C:\\Users\\school\\OneDrive - Summacollege O365\\Software development\\projectmatig werken basis\\project-fluitende-fietsers\\DeFluitendeFietser\\DeFluitendeFietser.csproj",
       "projectName": "DeFluitendeFietser",
-      "projectPath": "C:\\Users\\JOWAN HAIDER\\Desktop\\New folder (4)\\DeFluitendeFietser\\DeFluitendeFietser.csproj",
-      "packagesPath": "C:\\Users\\JOWAN HAIDER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JOWAN HAIDER\\Desktop\\New folder (4)\\DeFluitendeFietser\\obj\\",
+      "projectPath": "C:\\Users\\school\\OneDrive - Summacollege O365\\Software development\\projectmatig werken basis\\project-fluitende-fietsers\\DeFluitendeFietser\\DeFluitendeFietser.csproj",
+      "packagesPath": "C:\\Users\\school\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\school\\OneDrive - Summacollege O365\\Software development\\projectmatig werken basis\\project-fluitende-fietsers\\DeFluitendeFietser\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\JOWAN HAIDER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\school\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -77,7 +77,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
