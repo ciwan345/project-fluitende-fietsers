@@ -1,7 +1,7 @@
 <Window x:Class="DeFluitendeFietser.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="De Fluitende Fietser - Kassasysteem" Height="780" Width="1200"
+        Title="De Fluitende Fietser " Height="780" Width="1200"
         MinHeight="680" MinWidth="1000" WindowStartupLocation="CenterScreen"
         Background="#F3F5F7" FontFamily="Segoe UI">
     <Window.Resources>
@@ -50,7 +50,10 @@
         </Border>
 
         <Grid Grid.Column="1" Margin="26">
-            <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/></Grid.RowDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
             <Grid Grid.Row="0" Margin="0,0,0,20">
                 <StackPanel>
                     <TextBlock x:Name="PageTitle" Text="Bestelling" FontSize="27" FontWeight="Bold" Foreground="#20364B"/>
@@ -60,7 +63,11 @@
 
             <!-- Bestelscherm -->
             <Grid x:Name="OrderPage" Grid.Row="1" Visibility="Visible">
-                <Grid.ColumnDefinitions><ColumnDefinition Width="1.05*"/><ColumnDefinition Width="18"/><ColumnDefinition Width="1.2*"/></Grid.ColumnDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1.05*"/>
+                    <ColumnDefinition Width="18"/>
+                    <ColumnDefinition Width="1.2*"/>
+                </Grid.ColumnDefinitions>
                 <Border Grid.Column="0" Background="White" CornerRadius="12" Padding="22">
                     <ScrollViewer VerticalScrollBarVisibility="Auto">
                         <StackPanel>
@@ -74,13 +81,17 @@
                             <TextBlock Text="Aantal" FontWeight="SemiBold" Margin="0,0,0,6"/>
                             <TextBox x:Name="QuantityBox" Text="1" Margin="0,0,0,18"/>
                             <Button Content="＋  Toevoegen aan bestelling" Click="AddItem_Click" Background="#21856B" Foreground="White" FontWeight="SemiBold" Height="46"/>
-                            <TextBlock Text="Kies producten uit één of meerdere lijsten. Alle gekozen producten worden samen toegevoegd; dubbele producten worden automatisch samengevoegd." Foreground="#82909D" FontSize="12" TextWrapping="Wrap" Margin="0,13,0,0"/>
+                          
                         </StackPanel>
                     </ScrollViewer>
                 </Border>
                 <Border Grid.Column="2" Background="White" CornerRadius="12" Padding="20">
                     <Grid>
-                        <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
                         <Grid Grid.Row="0" Margin="0,0,0,12">
                             <StackPanel VerticalAlignment="Center">
                                 <TextBlock Text="Huidige bestelling" FontSize="19" FontWeight="Bold" Foreground="#20364B"/>
@@ -93,7 +104,10 @@
                         </Grid>
                         <Border Grid.Row="1" Background="#F7F9FA" CornerRadius="8" Padding="12" VerticalAlignment="Top">
                             <Grid>
-                                <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
                                 <StackPanel>
                                     <TextBlock Text="Klantbestelling" FontWeight="SemiBold" FontSize="14" Foreground="#20364B"/>
                                     <TextBlock x:Name="OrderSummaryDetails" Text="Nog geen producten toegevoegd" FontSize="12" Foreground="#82909D" TextWrapping="Wrap" Margin="0,5,8,0"/>
@@ -115,7 +129,11 @@
 
             <!-- Betaalscherm -->
             <Grid x:Name="PaymentPage" Grid.Row="1" Visibility="Collapsed">
-                <Grid.ColumnDefinitions><ColumnDefinition Width="1.1*"/><ColumnDefinition Width="18"/><ColumnDefinition Width="0.9*"/></Grid.ColumnDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1.1*"/>
+                    <ColumnDefinition Width="18"/>
+                    <ColumnDefinition Width="0.9*"/>
+                </Grid.ColumnDefinitions>
                 <Border Grid.Column="0" Background="White" CornerRadius="12" Padding="24">
                     <StackPanel>
                         <TextBlock Text="Afrekenen" FontSize="21" FontWeight="Bold" Foreground="#20364B"/>
@@ -137,7 +155,10 @@
                         </UniformGrid>
                         <Border Background="#F2F7F5" CornerRadius="9" Padding="16">
                             <Grid>
-                                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
                                 <TextBlock x:Name="PaymentStatus" Text="Nog te betalen" Foreground="#718096" FontWeight="SemiBold"/>
                                 <TextBlock x:Name="ChangeText" Grid.Row="1" Text="€ 0,00" FontSize="27" FontWeight="Bold" Foreground="#20364B" Margin="0,4,0,0"/>
                             </Grid>
@@ -168,31 +189,105 @@
                         <TextBlock Text="Rekenmachine" FontSize="20" FontWeight="Bold" Foreground="#20364B" Margin="0,0,0,14"/>
                         <TextBox x:Name="CalcDisplay" Text="0" FontSize="26" Height="62" TextAlignment="Right" VerticalContentAlignment="Center" Margin="0,0,0,12" KeyDown="CalcDisplay_KeyDown"/>
                         <UniformGrid Columns="4" Rows="6">
-                            <Button Content="7" Click="CalcButton_Click" Margin="3"/><Button Content="8" Click="CalcButton_Click" Margin="3"/><Button Content="9" Click="CalcButton_Click" Margin="3"/><Button Content="÷" Click="CalcButton_Click" Margin="3"/>
-                            <Button Content="4" Click="CalcButton_Click" Margin="3"/><Button Content="5" Click="CalcButton_Click" Margin="3"/><Button Content="6" Click="CalcButton_Click" Margin="3"/><Button Content="×" Click="CalcButton_Click" Margin="3"/>
-                            <Button Content="1" Click="CalcButton_Click" Margin="3"/><Button Content="2" Click="CalcButton_Click" Margin="3"/><Button Content="3" Click="CalcButton_Click" Margin="3"/><Button Content="-" Click="CalcButton_Click" Margin="3"/>
-                            <Button Content="0" Click="CalcButton_Click" Margin="3"/><Button Content="," Click="CalcButton_Click" Margin="3"/><Button Content="%" Click="CalcButton_Click" Margin="3"/><Button Content="+" Click="CalcButton_Click" Margin="3"/>
-                            <Button Content="(" Click="CalcButton_Click" Margin="3"/><Button Content=")" Click="CalcButton_Click" Margin="3"/><Button Content="±" Click="CalcButton_Click" Margin="3"/><Button Content="⌫" Click="CalcButton_Click" Margin="3"/>
-                            <Button Content="C" Click="CalcButton_Click" Margin="3" Background="#FCE9E7" Foreground="#B5473C"/><Button Content="CE" Click="CalcButton_Click" Margin="3"/><Button Content="=" Click="CalcButton_Click" Margin="3" Background="#21856B" Foreground="White" FontWeight="Bold"/><Button Content="Kopieer" Click="CopyResult_Click" Margin="3"/>
+                            <Button Content="7" Click="CalcButton_Click" Margin="3"/>
+                            <Button Content="8" Click="CalcButton_Click" Margin="3"/>
+                            <Button Content="9" Click="CalcButton_Click" Margin="3"/>
+                            <Button Content="÷" Click="CalcButton_Click" Margin="3"/>
+                            <Button Content="4" Click="CalcButton_Click" Margin="3"/>
+                            <Button Content="5" Click="CalcButton_Click" Margin="3"/>
+                            <Button Content="6" Click="CalcButton_Click" Margin="3"/>
+                            <Button Content="×" Click="CalcButton_Click" Margin="3"/>
+                            <Button Content="1" Click="CalcButton_Click" Margin="3"/>
+                            <Button Content="2" Click="CalcButton_Click" Margin="3"/>
+                            <Button Content="3" Click="CalcButton_Click" Margin="3"/>
+                            <Button Content="-" Click="CalcButton_Click" Margin="3"/>
+                            <Button Content="0" Click="CalcButton_Click" Margin="3"/>
+                            <Button Content="," Click="CalcButton_Click" Margin="3"/>
+                            <Button Content="%" Click="CalcButton_Click" Margin="3"/>
+                            <Button Content="+" Click="CalcButton_Click" Margin="3"/>
+                            <Button Content="(" Click="CalcButton_Click" Margin="3"/>
+                            <Button Content=")" Click="CalcButton_Click" Margin="3"/>
+                            <Button Content="±" Click="CalcButton_Click" Margin="3"/>
+                            <Button Content="⌫" Click="CalcButton_Click" Margin="3"/>
+                            <Button Content="C" Click="CalcButton_Click" Margin="3" Background="#FCE9E7" Foreground="#B5473C"/>
+                            <Button Content="CE" Click="CalcButton_Click" Margin="3"/>
+                            <Button Content="=" Click="CalcButton_Click" Margin="3" Background="#21856B" Foreground="White" FontWeight="Bold"/>
+                            <Button Content="Kopieer" Click="CopyResult_Click" Margin="3"/>
                         </UniformGrid>
-                        <TextBlock Text="Tip: je kunt ook typen met je toetsenbord. Enter = uitrekenen, Escape = wissen." Foreground="#82909D" FontSize="11" TextWrapping="Wrap" Margin="3,10,3,0"/>
+                      
                     </StackPanel>
                 </Border>
             </Grid>
 
-            <!-- Eenvoudige pagina met alleen een afteltimer -->
-            <Grid x:Name="ClockPage" Grid.Row="1" Visibility="Collapsed">
-                <Border x:Name="CountdownPanel" Background="White" CornerRadius="8" Padding="24" MaxWidth="420" HorizontalAlignment="Center" VerticalAlignment="Top">
+            <!-- Klokpagina -->
+            <Grid x:Name="ClockPage"
+      Grid.Row="1"
+      Visibility="Collapsed">
+
+                <Border Background="White"
+            CornerRadius="8"
+            Padding="24"
+            MaxWidth="420"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top">
+
                     <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="AFTELTIMER" FontSize="18" FontWeight="Bold" Foreground="#20364B" HorizontalAlignment="Center" />
-                        <TextBlock x:Name="CountdownText" Text="00:05:00" FontSize="42" FontWeight="Bold" Foreground="#21856B" HorizontalAlignment="Center" Margin="0,18" />
-                        <TextBlock Text="Tijd instellen (uu:mm:ss)" Foreground="#718096" HorizontalAlignment="Center" Margin="0,4,0,6" />
-                        <TextBox x:Name="CountdownInput" Text="00:05:00" TextChanged="CountdownInput_TextChanged" Width="150" HorizontalContentAlignment="Center" HorizontalAlignment="Center" />
-                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,12,0,0">
-                            <Button x:Name="CountdownButton" Content="Start" Click="CountdownStart_Click" Margin="3" />
-                            <Button Content="Reset" Click="CountdownReset_Click" Margin="3" />
-                        </StackPanel>
-                        <TextBlock x:Name="CountdownStatus" Text="Klaar om te starten" Foreground="#718096" FontSize="12" HorizontalAlignment="Center" Margin="0,8,0,0" />
+
+                        <TextBlock Text="KLOK"
+                       FontSize="18"
+                       FontWeight="Bold"
+                       Foreground="#20364B"
+                       HorizontalAlignment="Center"/>
+
+                        <TextBlock x:Name="ClockDisplay"
+                       Text="00:00:00"
+                       FontSize="42"
+                       FontWeight="Bold"
+                       Foreground="#21856B"
+                       HorizontalAlignment="Center"
+                       Margin="0,18"/>
+
+                        <TextBlock Text="Uren"
+                       Foreground="#718096"/>
+
+                        <TextBox x:Name="ClockHours"
+                     Text="00"
+                     MaxLength="2"
+                     IsEnabled="False"
+                     Width="150"
+                     HorizontalContentAlignment="Center"
+                     HorizontalAlignment="Center"/>
+
+                        <TextBlock Text="Minuten"
+                       Foreground="#718096"
+                       Margin="0,8,0,0"/>
+
+                        <TextBox x:Name="ClockMinutes"
+                     Text="00"
+                     MaxLength="2"
+                     IsEnabled="False"
+                     Width="150"
+                     HorizontalContentAlignment="Center"
+                     HorizontalAlignment="Center"/>
+
+                        <TextBlock Text="Seconden"
+                       Foreground="#718096"
+                       Margin="0,8,0,0"/>
+
+                        <TextBox x:Name="ClockSeconds"
+                     Text="00"
+                     MaxLength="2"
+                     IsEnabled="False"
+                     Width="150"
+                     HorizontalContentAlignment="Center"
+                     HorizontalAlignment="Center"/>
+
+                        <Button x:Name="ClockButton"
+                    Content="Set time"
+                    Click="ClockButton_Click"
+                    Margin="3,18,3,3"
+                    Height="40"/>
+
                     </StackPanel>
                 </Border>
             </Grid>

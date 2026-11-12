@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< Updated upstream
     "C:\\Users\\school\\OneDrive - Summacollege O365\\Software development\\projectmatig werken basis\\project-fluitende-fietsers\\DeFluitendeFietser\\DeFluitendeFietser.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\school\\OneDrive - Summacollege O365\\Software development\\projectmatig werken basis\\project-fluitende-fietsers\\DeFluitendeFietser\\DeFluitendeFietser.csproj",
         "packagesPath": "C:\\Users\\school\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\school\\OneDrive - Summacollege O365\\Software development\\projectmatig werken basis\\project-fluitende-fietsers\\DeFluitendeFietser\\obj\\",
+=======
+    "C:\\Users\\JOWAN HAIDER\\Desktop\\eindeopdracht wpf\\project-fluitende-fietsers\\DeFluitendeFietser\\DeFluitendeFietser.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\JOWAN HAIDER\\Desktop\\eindeopdracht wpf\\project-fluitende-fietsers\\DeFluitendeFietser\\DeFluitendeFietser.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JOWAN HAIDER\\Desktop\\eindeopdracht wpf\\project-fluitende-fietsers\\DeFluitendeFietser\\DeFluitendeFietser.csproj",
+        "projectName": "DeFluitendeFietser",
+        "projectPath": "C:\\Users\\JOWAN HAIDER\\Desktop\\eindeopdracht wpf\\project-fluitende-fietsers\\DeFluitendeFietser\\DeFluitendeFietser.csproj",
+        "packagesPath": "C:\\Users\\JOWAN HAIDER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JOWAN HAIDER\\Desktop\\eindeopdracht wpf\\project-fluitende-fietsers\\DeFluitendeFietser\\obj\\",
+>>>>>>> Stashed changes
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

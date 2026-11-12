@@ -20,6 +20,7 @@ C:\Users\JOWAN HAIDER\Desktop\New folder (4)\DeFluitendeFietser\obj\Debug\net10.
 C:\Users\JOWAN HAIDER\Desktop\New folder (4)\DeFluitendeFietser\obj\Debug\net10.0-windows\DeFluitendeFietser.pdb
 C:\Users\JOWAN HAIDER\Desktop\New folder (4)\DeFluitendeFietser\obj\Debug\net10.0-windows\DeFluitendeFietser.genruntimeconfig.cache
 C:\Users\JOWAN HAIDER\Desktop\New folder (4)\DeFluitendeFietser\obj\Debug\net10.0-windows\ref\DeFluitendeFietser.dll
+<<<<<<< Updated upstream
 C:\Users\school\OneDrive - Summacollege O365\Software development\projectmatig werken basis\project-fluitende-fietsers\DeFluitendeFietser\bin\Debug\net10.0-windows\prijzen_fietsen_verzekeringen_services.csv
 C:\Users\school\OneDrive - Summacollege O365\Software development\projectmatig werken basis\project-fluitende-fietsers\DeFluitendeFietser\bin\Debug\net10.0-windows\DeFluitendeFietser.exe
 C:\Users\school\OneDrive - Summacollege O365\Software development\projectmatig werken basis\project-fluitende-fietsers\DeFluitendeFietser\bin\Debug\net10.0-windows\DeFluitendeFietser.deps.json
@@ -43,3 +44,28 @@ C:\Users\school\OneDrive - Summacollege O365\Software development\projectmatig w
 C:\Users\school\OneDrive - Summacollege O365\Software development\projectmatig werken basis\project-fluitende-fietsers\DeFluitendeFietser\obj\Debug\net10.0-windows\DeFluitendeFietser.pdb
 C:\Users\school\OneDrive - Summacollege O365\Software development\projectmatig werken basis\project-fluitende-fietsers\DeFluitendeFietser\obj\Debug\net10.0-windows\DeFluitendeFietser.genruntimeconfig.cache
 C:\Users\school\OneDrive - Summacollege O365\Software development\projectmatig werken basis\project-fluitende-fietsers\DeFluitendeFietser\obj\Debug\net10.0-windows\ref\DeFluitendeFietser.dll
+=======
+C:\Users\JOWAN HAIDER\Desktop\eindeopdracht wpf\project-fluitende-fietsers\DeFluitendeFietser\bin\Debug\net10.0-windows\prijzen_fietsen_verzekeringen_services.csv
+C:\Users\JOWAN HAIDER\Desktop\eindeopdracht wpf\project-fluitende-fietsers\DeFluitendeFietser\bin\Debug\net10.0-windows\DeFluitendeFietser.exe
+C:\Users\JOWAN HAIDER\Desktop\eindeopdracht wpf\project-fluitende-fietsers\DeFluitendeFietser\bin\Debug\net10.0-windows\DeFluitendeFietser.deps.json
+C:\Users\JOWAN HAIDER\Desktop\eindeopdracht wpf\project-fluitende-fietsers\DeFluitendeFietser\bin\Debug\net10.0-windows\DeFluitendeFietser.runtimeconfig.json
+C:\Users\JOWAN HAIDER\Desktop\eindeopdracht wpf\project-fluitende-fietsers\DeFluitendeFietser\bin\Debug\net10.0-windows\DeFluitendeFietser.dll
+C:\Users\JOWAN HAIDER\Desktop\eindeopdracht wpf\project-fluitende-fietsers\DeFluitendeFietser\bin\Debug\net10.0-windows\DeFluitendeFietser.pdb
+C:\Users\JOWAN HAIDER\Desktop\eindeopdracht wpf\project-fluitende-fietsers\DeFluitendeFietser\obj\Debug\net10.0-windows\MainWindow.baml
+C:\Users\JOWAN HAIDER\Desktop\eindeopdracht wpf\project-fluitende-fietsers\DeFluitendeFietser\obj\Debug\net10.0-windows\Views\CustomerWindow.baml
+C:\Users\JOWAN HAIDER\Desktop\eindeopdracht wpf\project-fluitende-fietsers\DeFluitendeFietser\obj\Debug\net10.0-windows\MainWindow.g.cs
+C:\Users\JOWAN HAIDER\Desktop\eindeopdracht wpf\project-fluitende-fietsers\DeFluitendeFietser\obj\Debug\net10.0-windows\Views\CustomerWindow.g.cs
+C:\Users\JOWAN HAIDER\Desktop\eindeopdracht wpf\project-fluitende-fietsers\DeFluitendeFietser\obj\Debug\net10.0-windows\App.g.cs
+C:\Users\JOWAN HAIDER\Desktop\eindeopdracht wpf\project-fluitende-fietsers\DeFluitendeFietser\obj\Debug\net10.0-windows\DeFluitendeFietser_MarkupCompile.cache
+C:\Users\JOWAN HAIDER\Desktop\eindeopdracht wpf\project-fluitende-fietsers\DeFluitendeFietser\obj\Debug\net10.0-windows\DeFluitendeFietser.g.resources
+C:\Users\JOWAN HAIDER\Desktop\eindeopdracht wpf\project-fluitende-fietsers\DeFluitendeFietser\obj\Debug\net10.0-windows\DeFluitendeFietser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JOWAN HAIDER\Desktop\eindeopdracht wpf\project-fluitende-fietsers\DeFluitendeFietser\obj\Debug\net10.0-windows\DeFluitendeFietser.AssemblyInfoInputs.cache
+C:\Users\JOWAN HAIDER\Desktop\eindeopdracht wpf\project-fluitende-fietsers\DeFluitendeFietser\obj\Debug\net10.0-windows\DeFluitendeFietser.AssemblyInfo.cs
+C:\Users\JOWAN HAIDER\Desktop\eindeopdracht wpf\project-fluitende-fietsers\DeFluitendeFietser\obj\Debug\net10.0-windows\DeFluitendeFietser.csproj.CoreCompileInputs.cache
+C:\Users\JOWAN HAIDER\Desktop\eindeopdracht wpf\project-fluitende-fietsers\DeFluitendeFietser\obj\Debug\net10.0-windows\DeFluitendeFietser.sourcelink.json
+C:\Users\JOWAN HAIDER\Desktop\eindeopdracht wpf\project-fluitende-fietsers\DeFluitendeFietser\obj\Debug\net10.0-windows\DeFluitendeFietser.dll
+C:\Users\JOWAN HAIDER\Desktop\eindeopdracht wpf\project-fluitende-fietsers\DeFluitendeFietser\obj\Debug\net10.0-windows\refint\DeFluitendeFietser.dll
+C:\Users\JOWAN HAIDER\Desktop\eindeopdracht wpf\project-fluitende-fietsers\DeFluitendeFietser\obj\Debug\net10.0-windows\DeFluitendeFietser.pdb
+C:\Users\JOWAN HAIDER\Desktop\eindeopdracht wpf\project-fluitende-fietsers\DeFluitendeFietser\obj\Debug\net10.0-windows\DeFluitendeFietser.genruntimeconfig.cache
+C:\Users\JOWAN HAIDER\Desktop\eindeopdracht wpf\project-fluitende-fietsers\DeFluitendeFietser\obj\Debug\net10.0-windows\ref\DeFluitendeFietser.dll
+>>>>>>> Stashed changes

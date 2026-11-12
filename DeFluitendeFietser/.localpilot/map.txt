@@ -1,0 +1,37 @@
+## WORKSPACE EXECUTIVE SUMMARY (YAML)
+# Generated: 2026-11-12T09:51:51.7035227+01:00
+# Root: C:\Users\JOWAN HAIDER\Desktop\eindeopdracht wpf\project-fluitende-fietsers\DeFluitendeFietser
+Architecture:
+  Type: Backend (C#/.NET)
+  Scale: 10 relevant source files
+  Components: 0
+  Controllers: 0
+  Models: 3
+  Services: 0
+---
+- File: DeFluitendeFietser.csproj
+  Preview: "<Project Sdk='Microsoft.NET.Sdk'>  <PropertyGroup>   <OutputType>WinExe</OutputType>   <TargetFramework>net10.0-windows</TargetFramework>   <UseWPF>tr..."
+- File: DeFluitendeFietser.sln
+  Preview: "Microsoft Visual Studio Solution File, Format Version 12.00 # Visual Studio Version 18 VisualStudioVersion = 18.9.12128.139 oobstable MinimumVisualStu..."
+- File: App.xaml.cs
+  Symbols: [App]
+  Preview: "using System.Windows; namespace DeFluitendeFietser {   public partial class App : Application   {   } } "
+- File: MainWindow.xaml.cs
+  Preview: " using System; using System.Collections.Generic; using System.Globalization; using System.IO; using System.Linq; using System.Windows; using System.Wi..."
+- File: README.txt
+  Preview: "DE FLUITENDE FIETSER - WPF KASSASYSTEEM Dit is een oefenproject voor C# en WPF. PROJECTSTRUCTUUR - App.xaml en App.xaml.cs: starten de applicatie. - M..."
+- File: Helpers\CalculatorParser.cs
+  Symbols: [CalculatorParser]
+  Preview: "using System; using System.Globalization; namespace DeFluitendeFietser.Helpers {   // Deze klasse rekent een eenvoudige wiskundige invoer uit.   // Vo..."
+- File: Models\CustomerRecord.cs
+  Symbols: [CustomerRecord]
+  Preview: "using System; using System.Globalization; namespace DeFluitendeFietser.Models {   public class CustomerRecord   {     public int Number { get; set; } ..."
+- File: Models\OrderItem.cs
+  Symbols: [OrderItem]
+  Preview: "using System.Globalization; namespace DeFluitendeFietser.Models {   public class OrderItem   {     public string Name { get; set; } = '';     public s..."
+- File: Models\Product.cs
+  Symbols: [Product]
+  Preview: "using System.Globalization; namespace DeFluitendeFietser.Models {   public class Product   {     public string Category { get; set; } = '';     public..."
+- File: Views\CustomerWindow.xaml.cs
+  Symbols: [CustomerWindow]
+  Preview: "using System.Collections.Generic; using System.Linq; using System.Windows; using DeFluitendeFietser.Models; namespace DeFluitendeFietser.Views {   pub..."

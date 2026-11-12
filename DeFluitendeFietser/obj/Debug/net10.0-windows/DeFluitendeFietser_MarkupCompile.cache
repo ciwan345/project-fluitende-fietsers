@@ -4,12 +4,20 @@
 winexe
 C#
 .cs
+<<<<<<< Updated upstream
 C:\Users\school\OneDrive - Summacollege O365\Software development\projectmatig werken basis\project-fluitende-fietsers\DeFluitendeFietser\obj\Debug\net10.0-windows\
+=======
+C:\Users\JOWAN HAIDER\Desktop\eindeopdracht wpf\project-fluitende-fietsers\DeFluitendeFietser\obj\Debug\net10.0-windows\
+>>>>>>> Stashed changes
 DeFluitendeFietser
 none
 false
 TRACE;DEBUG;NET;NET10_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NET10_0_OR_GREATER;NETCOREAPP1_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
+<<<<<<< Updated upstream
 C:\Users\school\OneDrive - Summacollege O365\Software development\projectmatig werken basis\project-fluitende-fietsers\DeFluitendeFietser\App.xaml
+=======
+C:\Users\JOWAN HAIDER\Desktop\eindeopdracht wpf\project-fluitende-fietsers\DeFluitendeFietser\App.xaml
+>>>>>>> Stashed changes
 21089302193
 
 8642135031
